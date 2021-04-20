@@ -1,0 +1,5 @@
+set tool_name "ModelSim (Verilog)"
+set corner_file_list {
+	{{"Slow Model"} {RCA.vo RCA_v.sdo}}
+	{{"Fast Model"} {RCA_fast.vo RCA_v_fast.sdo}}
+}
