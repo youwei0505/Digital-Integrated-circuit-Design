@@ -1,0 +1,121 @@
+|RCA
+s[0] <= FA:FA1.port0
+s[1] <= FA:FA2.port0
+s[2] <= FA:FA3.port0
+s[3] <= FA:FA4.port0
+c_out <= FA:FA4.port1
+x[0] => x[0].IN1
+x[1] => x[1].IN1
+x[2] => x[2].IN1
+x[3] => x[3].IN1
+y[0] => y[0].IN1
+y[1] => y[1].IN1
+y[2] => y[2].IN1
+y[3] => y[3].IN1
+c_in => c_in.IN1
+
+
+|RCA|FA:FA1
+s <= HA:HA2.port0
+c_out <= or1.DB_MAX_OUTPUT_PORT_TYPE
+x => x.IN1
+y => y.IN1
+c_in => c_in.IN1
+
+
+|RCA|FA:FA1|HA:HA1
+s <= xor1.DB_MAX_OUTPUT_PORT_TYPE
+c <= and1.DB_MAX_OUTPUT_PORT_TYPE
+x => xor1.IN0
+x => and1.IN0
+y => xor1.IN1
+y => and1.IN1
+
+
+|RCA|FA:FA1|HA:HA2
+s <= xor1.DB_MAX_OUTPUT_PORT_TYPE
+c <= and1.DB_MAX_OUTPUT_PORT_TYPE
+x => xor1.IN0
+x => and1.IN0
+y => xor1.IN1
+y => and1.IN1
+
+
+|RCA|FA:FA2
+s <= HA:HA2.port0
+c_out <= or1.DB_MAX_OUTPUT_PORT_TYPE
+x => x.IN1
+y => y.IN1
+c_in => c_in.IN1
+
+
+|RCA|FA:FA2|HA:HA1
+s <= xor1.DB_MAX_OUTPUT_PORT_TYPE
+c <= and1.DB_MAX_OUTPUT_PORT_TYPE
+x => xor1.IN0
+x => and1.IN0
+y => xor1.IN1
+y => and1.IN1
+
+
+|RCA|FA:FA2|HA:HA2
+s <= xor1.DB_MAX_OUTPUT_PORT_TYPE
+c <= and1.DB_MAX_OUTPUT_PORT_TYPE
+x => xor1.IN0
+x => and1.IN0
+y => xor1.IN1
+y => and1.IN1
+
+
+|RCA|FA:FA3
+s <= HA:HA2.port0
+c_out <= or1.DB_MAX_OUTPUT_PORT_TYPE
+x => x.IN1
+y => y.IN1
+c_in => c_in.IN1
+
+
+|RCA|FA:FA3|HA:HA1
+s <= xor1.DB_MAX_OUTPUT_PORT_TYPE
+c <= and1.DB_MAX_OUTPUT_PORT_TYPE
+x => xor1.IN0
+x => and1.IN0
+y => xor1.IN1
+y => and1.IN1
+
+
+|RCA|FA:FA3|HA:HA2
+s <= xor1.DB_MAX_OUTPUT_PORT_TYPE
+c <= and1.DB_MAX_OUTPUT_PORT_TYPE
+x => xor1.IN0
+x => and1.IN0
+y => xor1.IN1
+y => and1.IN1
+
+
+|RCA|FA:FA4
+s <= HA:HA2.port0
+c_out <= or1.DB_MAX_OUTPUT_PORT_TYPE
+x => x.IN1
+y => y.IN1
+c_in => c_in.IN1
+
+
+|RCA|FA:FA4|HA:HA1
+s <= xor1.DB_MAX_OUTPUT_PORT_TYPE
+c <= and1.DB_MAX_OUTPUT_PORT_TYPE
+x => xor1.IN0
+x => and1.IN0
+y => xor1.IN1
+y => and1.IN1
+
+
+|RCA|FA:FA4|HA:HA2
+s <= xor1.DB_MAX_OUTPUT_PORT_TYPE
+c <= and1.DB_MAX_OUTPUT_PORT_TYPE
+x => xor1.IN0
+x => and1.IN0
+y => xor1.IN1
+y => and1.IN1
+
+
