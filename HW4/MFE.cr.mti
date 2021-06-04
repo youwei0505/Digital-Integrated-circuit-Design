@@ -1,0 +1,8 @@
+D:/109-2_NCKU/HW4/Code/testfixture.v {1 {vlog -work work -vopt D:/109-2_NCKU/HW4/Code/testfixture.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module testfixture
+
+Top level modules:
+	testfixture
+
+} {} {}}

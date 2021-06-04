@@ -1,0 +1,25 @@
+# Current time Fri Jun 04 14:42:09 2021
+# ModelSim Stack Trace
+# Program = vish
+# Id = "10.1c"
+# Version = "2012.07"
+# Date = "Jul 28 2012"
+# Platform = win64
+
+Exception c0000005 has occurred at address 102c24c0. Traceback:
+# 0    0x102c24c0: 'TkpAlwaysShowSelection'
+# 1    0x102b163e: 'TkTextCreateDInfo + 0x21e'
+# 2    0x005e2200: '<unknown (@0x5e2200)>'
+# 3    0x16c05d40: '<unknown (@0x16c05d40)>'
+# 4    0x1ab6c250: '<unknown (@0x1ab6c250)>'
+# 5    0xeec5b3c7: 'RtlAllocateHeap + 0xa27'
+# 6    0xffffffff: '<unknown (@0xffffffff)>'
+# 7    0xffffffff: '<unknown (@0xffffffff)>'
+# 8    0xffffffff: '<unknown (@0xffffffff)>'
+# 9    0xffffffff: '<unknown (@0xffffffff)>'
+# 10   0xffffffff: '<unknown (@0xffffffff)>'
+# 11   0xffffffff: '<unknown (@0xffffffff)>'
+# 12   0xffffffff: '<unknown (@0xffffffff)>'
+StackWalk failed 487
+# End of Stack Trace
+
