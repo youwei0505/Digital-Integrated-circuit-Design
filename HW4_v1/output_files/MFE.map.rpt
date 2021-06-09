@@ -1,0 +1,505 @@
+Analysis & Synthesis report for MFE
+Wed Jun 09 16:04:02 2021
+Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Analysis & Synthesis Summary
+  3. Analysis & Synthesis Settings
+  4. Parallel Compilation
+  5. Analysis & Synthesis Source Files Read
+  6. Analysis & Synthesis Resource Usage Summary
+  7. Analysis & Synthesis Resource Utilization by Entity
+  8. State Machine - |MFE|map_case
+  9. State Machine - |MFE|curt_state
+ 10. User-Specified and Inferred Latches
+ 11. Registers Removed During Synthesis
+ 12. General Register Statistics
+ 13. Multiplexer Restructuring Statistics (Restructuring Performed)
+ 14. Elapsed Time Per Partition
+ 15. Analysis & Synthesis Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++--------------------------------------------------------------------------------------+
+; Analysis & Synthesis Summary                                                         ;
++------------------------------------+-------------------------------------------------+
+; Analysis & Synthesis Status        ; Successful - Wed Jun 09 16:04:02 2021           ;
+; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition ;
+; Revision Name                      ; MFE                                             ;
+; Top-level Entity Name              ; MFE                                             ;
+; Family                             ; Cyclone II                                      ;
+; Total logic elements               ; 637                                             ;
+;     Total combinational functions  ; 607                                             ;
+;     Dedicated logic registers      ; 188                                             ;
+; Total registers                    ; 188                                             ;
+; Total pins                         ; 57                                              ;
+; Total virtual pins                 ; 0                                               ;
+; Total memory bits                  ; 0                                               ;
+; Embedded Multiplier 9-bit elements ; 0                                               ;
+; Total PLLs                         ; 0                                               ;
++------------------------------------+-------------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Settings                                                                                        ;
++----------------------------------------------------------------------------+--------------------+--------------------+
+; Option                                                                     ; Setting            ; Default Value      ;
++----------------------------------------------------------------------------+--------------------+--------------------+
+; Device                                                                     ; EP2C70F896C8       ;                    ;
+; Top-level entity name                                                      ; MFE                ; MFE                ;
+; Family name                                                                ; Cyclone II         ; Cyclone IV GX      ;
+; Use smart compilation                                                      ; Off                ; Off                ;
+; Enable parallel Assembler and TimeQuest Timing Analyzer during compilation ; On                 ; On                 ;
+; Enable compact report table                                                ; Off                ; Off                ;
+; Restructure Multiplexers                                                   ; Auto               ; Auto               ;
+; Create Debugging Nodes for IP Cores                                        ; Off                ; Off                ;
+; Preserve fewer node names                                                  ; On                 ; On                 ;
+; Disable OpenCore Plus hardware evaluation                                  ; Off                ; Off                ;
+; Verilog Version                                                            ; Verilog_2001       ; Verilog_2001       ;
+; VHDL Version                                                               ; VHDL_1993          ; VHDL_1993          ;
+; State Machine Processing                                                   ; Auto               ; Auto               ;
+; Safe State Machine                                                         ; Off                ; Off                ;
+; Extract Verilog State Machines                                             ; On                 ; On                 ;
+; Extract VHDL State Machines                                                ; On                 ; On                 ;
+; Ignore Verilog initial constructs                                          ; Off                ; Off                ;
+; Iteration limit for constant Verilog loops                                 ; 5000               ; 5000               ;
+; Iteration limit for non-constant Verilog loops                             ; 250                ; 250                ;
+; Add Pass-Through Logic to Inferred RAMs                                    ; On                 ; On                 ;
+; Infer RAMs from Raw Logic                                                  ; On                 ; On                 ;
+; Parallel Synthesis                                                         ; On                 ; On                 ;
+; DSP Block Balancing                                                        ; Auto               ; Auto               ;
+; NOT Gate Push-Back                                                         ; On                 ; On                 ;
+; Power-Up Don't Care                                                        ; On                 ; On                 ;
+; Remove Redundant Logic Cells                                               ; Off                ; Off                ;
+; Remove Duplicate Registers                                                 ; On                 ; On                 ;
+; Ignore CARRY Buffers                                                       ; Off                ; Off                ;
+; Ignore CASCADE Buffers                                                     ; Off                ; Off                ;
+; Ignore GLOBAL Buffers                                                      ; Off                ; Off                ;
+; Ignore ROW GLOBAL Buffers                                                  ; Off                ; Off                ;
+; Ignore LCELL Buffers                                                       ; Off                ; Off                ;
+; Ignore SOFT Buffers                                                        ; On                 ; On                 ;
+; Limit AHDL Integers to 32 Bits                                             ; Off                ; Off                ;
+; Optimization Technique                                                     ; Balanced           ; Balanced           ;
+; Carry Chain Length                                                         ; 70                 ; 70                 ;
+; Auto Carry Chains                                                          ; On                 ; On                 ;
+; Auto Open-Drain Pins                                                       ; On                 ; On                 ;
+; Perform WYSIWYG Primitive Resynthesis                                      ; Off                ; Off                ;
+; Auto ROM Replacement                                                       ; On                 ; On                 ;
+; Auto RAM Replacement                                                       ; On                 ; On                 ;
+; Auto Shift Register Replacement                                            ; Auto               ; Auto               ;
+; Allow Shift Register Merging across Hierarchies                            ; Auto               ; Auto               ;
+; Auto Clock Enable Replacement                                              ; On                 ; On                 ;
+; Strict RAM Replacement                                                     ; Off                ; Off                ;
+; Allow Synchronous Control Signals                                          ; On                 ; On                 ;
+; Force Use of Synchronous Clear Signals                                     ; Off                ; Off                ;
+; Auto RAM to Logic Cell Conversion                                          ; Off                ; Off                ;
+; Auto Resource Sharing                                                      ; Off                ; Off                ;
+; Allow Any RAM Size For Recognition                                         ; Off                ; Off                ;
+; Allow Any ROM Size For Recognition                                         ; Off                ; Off                ;
+; Allow Any Shift Register Size For Recognition                              ; Off                ; Off                ;
+; Use LogicLock Constraints during Resource Balancing                        ; On                 ; On                 ;
+; Ignore translate_off and synthesis_off directives                          ; Off                ; Off                ;
+; Timing-Driven Synthesis                                                    ; Off                ; Off                ;
+; Report Parameter Settings                                                  ; On                 ; On                 ;
+; Report Source Assignments                                                  ; On                 ; On                 ;
+; Report Connectivity Checks                                                 ; On                 ; On                 ;
+; Ignore Maximum Fan-Out Assignments                                         ; Off                ; Off                ;
+; Synchronization Register Chain Length                                      ; 2                  ; 2                  ;
+; PowerPlay Power Optimization                                               ; Normal compilation ; Normal compilation ;
+; HDL message level                                                          ; Level2             ; Level2             ;
+; Suppress Register Optimization Related Messages                            ; Off                ; Off                ;
+; Number of Removed Registers Reported in Synthesis Report                   ; 5000               ; 5000               ;
+; Number of Swept Nodes Reported in Synthesis Report                         ; 5000               ; 5000               ;
+; Number of Inverted Registers Reported in Synthesis Report                  ; 100                ; 100                ;
+; Clock MUX Protection                                                       ; On                 ; On                 ;
+; Auto Gated Clock Conversion                                                ; Off                ; Off                ;
+; Block Design Naming                                                        ; Auto               ; Auto               ;
+; SDC constraint protection                                                  ; Off                ; Off                ;
+; Synthesis Effort                                                           ; Auto               ; Auto               ;
+; Shift Register Replacement - Allow Asynchronous Clear Signal               ; On                 ; On                 ;
+; Pre-Mapping Resynthesis Optimization                                       ; Off                ; Off                ;
+; Analysis & Synthesis Message Level                                         ; Medium             ; Medium             ;
+; Disable Register Merging Across Hierarchies                                ; Auto               ; Auto               ;
+; Resource Aware Inference For Block RAM                                     ; On                 ; On                 ;
+; Synthesis Seed                                                             ; 1                  ; 1                  ;
++----------------------------------------------------------------------------+--------------------+--------------------+
+
+
+Parallel compilation was disabled, but you have multiple processors available. Enable parallel compilation to reduce compilation time.
++-------------------------------------+
+; Parallel Compilation                ;
++----------------------------+--------+
+; Processors                 ; Number ;
++----------------------------+--------+
+; Number detected on machine ; 16     ;
+; Maximum allowed            ; 1      ;
++----------------------------+--------+
+
+
++----------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                               ;
++----------------------------------+-----------------+------------------------+------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type              ; File Name with Absolute Path ; Library ;
++----------------------------------+-----------------+------------------------+------------------------------+---------+
+; MFE.v                            ; yes             ; User Verilog HDL File  ; D:/109-2_NCKU/HW4_v2/MFE.v   ;         ;
++----------------------------------+-----------------+------------------------+------------------------------+---------+
+
+
++-----------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary         ;
++---------------------------------------------+-------+
+; Resource                                    ; Usage ;
++---------------------------------------------+-------+
+; Estimated Total logic elements              ; 637   ;
+;                                             ;       ;
+; Total combinational functions               ; 607   ;
+; Logic element usage by number of LUT inputs ;       ;
+;     -- 4 input functions                    ; 294   ;
+;     -- 3 input functions                    ; 168   ;
+;     -- <=2 input functions                  ; 145   ;
+;                                             ;       ;
+; Logic elements by mode                      ;       ;
+;     -- normal mode                          ; 498   ;
+;     -- arithmetic mode                      ; 109   ;
+;                                             ;       ;
+; Total registers                             ; 188   ;
+;     -- Dedicated logic registers            ; 188   ;
+;     -- I/O registers                        ; 0     ;
+;                                             ;       ;
+; I/O pins                                    ; 57    ;
+; Embedded Multiplier 9-bit elements          ; 0     ;
+; Maximum fan-out node                        ; clk   ;
+; Maximum fan-out                             ; 188   ;
+; Total fan-out                               ; 2787  ;
+; Average fan-out                             ; 3.27  ;
++---------------------------------------------+-------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                         ;
++----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+---------------------+--------------+
+; Compilation Hierarchy Node ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name ; Library Name ;
++----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+---------------------+--------------+
+; |MFE                       ; 607 (607)         ; 188 (188)    ; 0           ; 0            ; 0       ; 0         ; 57   ; 0            ; |MFE                ; work         ;
++----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+---------------------+--------------+
+Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
+
+
+Encoding Type:  One-Hot
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; State Machine - |MFE|map_case                                                                                                                                           ;
++----------------+----------------+----------------+----------------+----------------+----------------+----------------+----------------+----------------+----------------+
+; Name           ; map_case.00111 ; map_case.00110 ; map_case.00101 ; map_case.00100 ; map_case.00011 ; map_case.00010 ; map_case.00000 ; map_case.00001 ; map_case.01000 ;
++----------------+----------------+----------------+----------------+----------------+----------------+----------------+----------------+----------------+----------------+
+; map_case.00001 ; 0              ; 0              ; 0              ; 0              ; 0              ; 0              ; 0              ; 0              ; 0              ;
+; map_case.00000 ; 0              ; 0              ; 0              ; 0              ; 0              ; 0              ; 1              ; 1              ; 0              ;
+; map_case.00010 ; 0              ; 0              ; 0              ; 0              ; 0              ; 1              ; 0              ; 1              ; 0              ;
+; map_case.00011 ; 0              ; 0              ; 0              ; 0              ; 1              ; 0              ; 0              ; 1              ; 0              ;
+; map_case.00100 ; 0              ; 0              ; 0              ; 1              ; 0              ; 0              ; 0              ; 1              ; 0              ;
+; map_case.00101 ; 0              ; 0              ; 1              ; 0              ; 0              ; 0              ; 0              ; 1              ; 0              ;
+; map_case.00110 ; 0              ; 1              ; 0              ; 0              ; 0              ; 0              ; 0              ; 1              ; 0              ;
+; map_case.00111 ; 1              ; 0              ; 0              ; 0              ; 0              ; 0              ; 0              ; 1              ; 0              ;
+; map_case.01000 ; 0              ; 0              ; 0              ; 0              ; 0              ; 0              ; 0              ; 1              ; 1              ;
++----------------+----------------+----------------+----------------+----------------+----------------+----------------+----------------+----------------+----------------+
+
+
+Encoding Type:  One-Hot
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; State Machine - |MFE|curt_state                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ;
++----------------------+----------------------+----------------------+----------------------+----------------------+----------------------+----------------------+----------------------+----------------------+----------------------+----------------------+----------------------+----------------------+----------------------+----------------------+----------------------+----------------------+----------------------+----------------------+----------------------+----------------------+----------------------+
+; Name                 ; curt_state.000010100 ; curt_state.000010011 ; curt_state.000010010 ; curt_state.000010001 ; curt_state.000010000 ; curt_state.000001111 ; curt_state.000001110 ; curt_state.000001101 ; curt_state.000001100 ; curt_state.000001011 ; curt_state.000001010 ; curt_state.000001001 ; curt_state.000001000 ; curt_state.000000111 ; curt_state.000000110 ; curt_state.000000101 ; curt_state.000000100 ; curt_state.000000011 ; curt_state.000000010 ; curt_state.000000001 ; curt_state.000000000 ;
++----------------------+----------------------+----------------------+----------------------+----------------------+----------------------+----------------------+----------------------+----------------------+----------------------+----------------------+----------------------+----------------------+----------------------+----------------------+----------------------+----------------------+----------------------+----------------------+----------------------+----------------------+----------------------+
+; curt_state.000000000 ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ;
+; curt_state.000000001 ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 1                    ; 1                    ;
+; curt_state.000000010 ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 1                    ; 0                    ; 1                    ;
+; curt_state.000000011 ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 1                    ; 0                    ; 0                    ; 1                    ;
+; curt_state.000000100 ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 1                    ; 0                    ; 0                    ; 0                    ; 1                    ;
+; curt_state.000000101 ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 1                    ; 0                    ; 0                    ; 0                    ; 0                    ; 1                    ;
+; curt_state.000000110 ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 1                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 1                    ;
+; curt_state.000000111 ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 1                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 1                    ;
+; curt_state.000001000 ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 1                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 1                    ;
+; curt_state.000001001 ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 1                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 1                    ;
+; curt_state.000001010 ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 1                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 1                    ;
+; curt_state.000001011 ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 1                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 1                    ;
+; curt_state.000001100 ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 1                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 1                    ;
+; curt_state.000001101 ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 1                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 1                    ;
+; curt_state.000001110 ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 1                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 1                    ;
+; curt_state.000001111 ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 1                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 1                    ;
+; curt_state.000010000 ; 0                    ; 0                    ; 0                    ; 0                    ; 1                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 1                    ;
+; curt_state.000010001 ; 0                    ; 0                    ; 0                    ; 1                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 1                    ;
+; curt_state.000010010 ; 0                    ; 0                    ; 1                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 1                    ;
+; curt_state.000010011 ; 0                    ; 1                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 1                    ;
+; curt_state.000010100 ; 1                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 0                    ; 1                    ;
++----------------------+----------------------+----------------------+----------------------+----------------------+----------------------+----------------------+----------------------+----------------------+----------------------+----------------------+----------------------+----------------------+----------------------+----------------------+----------------------+----------------------+----------------------+----------------------+----------------------+----------------------+----------------------+
+
+
++-----------------------------------------------------------------------------------------------------+
+; User-Specified and Inferred Latches                                                                 ;
++-----------------------------------------------------+----------------------+------------------------+
+; Latch Name                                          ; Latch Enable Signal  ; Free of Timing Hazards ;
++-----------------------------------------------------+----------------------+------------------------+
+; next_state.000000000_12295                          ; curt_state.000010100 ; yes                    ;
+; next_state.000000001_12287                          ; curt_state.000010100 ; yes                    ;
+; next_state.000000100_12263                          ; curt_state.000010100 ; yes                    ;
+; next_state.000000101_12255                          ; curt_state.000010100 ; yes                    ;
+; next_state.000000010_12279                          ; curt_state.000010100 ; yes                    ;
+; next_state.000000011_12271                          ; curt_state.000010100 ; yes                    ;
+; next_state.000010100_12143                          ; curt_state.000010100 ; yes                    ;
+; next_state.000000111_12239                          ; curt_state.000010100 ; yes                    ;
+; next_state.000000110_12247                          ; curt_state.000010100 ; yes                    ;
+; next_state.000010011_12151                          ; curt_state.000010100 ; yes                    ;
+; next_state.000010010_12159                          ; curt_state.000010100 ; yes                    ;
+; next_state.000010001_12167                          ; curt_state.000010100 ; yes                    ;
+; next_state.000010000_12175                          ; curt_state.000010100 ; yes                    ;
+; next_state.000001111_12183                          ; curt_state.000010100 ; yes                    ;
+; next_state.000001110_12191                          ; curt_state.000010100 ; yes                    ;
+; next_state.000001101_12199                          ; curt_state.000010100 ; yes                    ;
+; next_state.000001100_12207                          ; curt_state.000010100 ; yes                    ;
+; next_state.000001011_12215                          ; curt_state.000010100 ; yes                    ;
+; next_state.000001010_12223                          ; curt_state.000010100 ; yes                    ;
+; next_state.000001001_12231                          ; curt_state.000010100 ; yes                    ;
+; Number of user-specified and inferred latches = 20  ;                      ;                        ;
++-----------------------------------------------------+----------------------+------------------------+
+Note: All latches listed above may not be present at the end of synthesis due to various synthesis optimizations.
+
+
++--------------------------------------------------------------------+
+; Registers Removed During Synthesis                                 ;
++----------------------------------------+---------------------------+
+; Register name                          ; Reason for Removal        ;
++----------------------------------------+---------------------------+
+; curt_state.000001000                   ; Lost fanout               ;
+; map_case~4                             ; Lost fanout               ;
+; map_case~5                             ; Lost fanout               ;
+; map_case~6                             ; Lost fanout               ;
+; map_case~8                             ; Lost fanout               ;
+; curt_state~4                           ; Lost fanout               ;
+; curt_state~5                           ; Lost fanout               ;
+; curt_state~6                           ; Lost fanout               ;
+; curt_state~7                           ; Lost fanout               ;
+; curt_state~8                           ; Lost fanout               ;
+; curt_state~9                           ; Lost fanout               ;
+; curt_state~10                          ; Lost fanout               ;
+; curt_state~11                          ; Lost fanout               ;
+; curt_state~12                          ; Lost fanout               ;
+; i[0]                                   ; Merged with addr_count[0] ;
+; Total Number of Removed Registers = 15 ;                           ;
++----------------------------------------+---------------------------+
+
+
++------------------------------------------------------+
+; General Register Statistics                          ;
++----------------------------------------------+-------+
+; Statistic                                    ; Value ;
++----------------------------------------------+-------+
+; Total registers                              ; 188   ;
+; Number of registers using Synchronous Clear  ; 66    ;
+; Number of registers using Synchronous Load   ; 65    ;
+; Number of registers using Asynchronous Clear ; 63    ;
+; Number of registers using Asynchronous Load  ; 0     ;
+; Number of registers using Clock Enable       ; 156   ;
+; Number of registers using Preset             ; 0     ;
++----------------------------------------------+-------+
+
+
++------------------------------------------------------------------------------------------------------------------------------------------+
+; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                           ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------+
+; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------+
+; 5:1                ; 4 bits    ; 12 LEs        ; 4 LEs                ; 8 LEs                  ; Yes        ; |MFE|mask_count[1]         ;
+; 8:1                ; 3 bits    ; 15 LEs        ; 3 LEs                ; 12 LEs                 ; Yes        ; |MFE|sort_count2[0]        ;
+; 8:1                ; 4 bits    ; 20 LEs        ; 4 LEs                ; 16 LEs                 ; Yes        ; |MFE|sort_count[1]         ;
+; 23:1               ; 7 bits    ; 105 LEs       ; 28 LEs               ; 77 LEs                 ; Yes        ; |MFE|iaddr[5]~reg0         ;
+; 23:1               ; 6 bits    ; 90 LEs        ; 36 LEs               ; 54 LEs                 ; Yes        ; |MFE|iaddr[8]~reg0         ;
+; 19:1               ; 8 bits    ; 96 LEs        ; 16 LEs               ; 80 LEs                 ; Yes        ; |MFE|mask[0][6]            ;
+; 20:1               ; 8 bits    ; 104 LEs       ; 16 LEs               ; 88 LEs                 ; Yes        ; |MFE|mask[1][7]            ;
+; 20:1               ; 8 bits    ; 104 LEs       ; 16 LEs               ; 88 LEs                 ; Yes        ; |MFE|mask[2][1]            ;
+; 19:1               ; 8 bits    ; 96 LEs        ; 16 LEs               ; 80 LEs                 ; Yes        ; |MFE|mask[4][5]            ;
+; 21:1               ; 8 bits    ; 112 LEs       ; 16 LEs               ; 96 LEs                 ; Yes        ; |MFE|mask[3][0]            ;
+; 21:1               ; 8 bits    ; 112 LEs       ; 16 LEs               ; 96 LEs                 ; Yes        ; |MFE|mask[7][7]            ;
+; 21:1               ; 8 bits    ; 112 LEs       ; 16 LEs               ; 96 LEs                 ; Yes        ; |MFE|mask[6][7]            ;
+; 26:1               ; 8 bits    ; 136 LEs       ; 16 LEs               ; 120 LEs                ; Yes        ; |MFE|mask[5][3]            ;
+; 26:1               ; 8 bits    ; 136 LEs       ; 16 LEs               ; 120 LEs                ; Yes        ; |MFE|mask[8][6]            ;
+; 4:1                ; 8 bits    ; 16 LEs        ; 16 LEs               ; 0 LEs                  ; No         ; |MFE|Mux33                 ;
+; 8:1                ; 2 bits    ; 10 LEs        ; 2 LEs                ; 8 LEs                  ; No         ; |MFE|map_case              ;
+; 5:1                ; 8 bits    ; 24 LEs        ; 24 LEs               ; 0 LEs                  ; No         ; |MFE|Mux36                 ;
+; 5:1                ; 8 bits    ; 24 LEs        ; 24 LEs               ; 0 LEs                  ; No         ; |MFE|Mux29                 ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------+
+
+
++-------------------------------+
+; Elapsed Time Per Partition    ;
++----------------+--------------+
+; Partition Name ; Elapsed Time ;
++----------------+--------------+
+; Top            ; 00:00:01     ;
++----------------+--------------+
+
+
++-------------------------------+
+; Analysis & Synthesis Messages ;
++-------------------------------+
+Info: *******************************************************************
+Info: Running Quartus II 64-Bit Analysis & Synthesis
+    Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+    Info: Processing started: Wed Jun 09 16:03:59 2021
+Info: Command: quartus_map --read_settings_files=on --write_settings_files=off MFE -c MFE
+Warning (20028): Parallel compilation is not licensed and has been disabled
+Info (12021): Found 1 design units, including 1 entities, in source file mfe.v
+    Info (12023): Found entity 1: MFE
+Info (12127): Elaborating entity "MFE" for the top level hierarchy
+Warning (10270): Verilog HDL Case Statement warning at MFE.v(61): incomplete case statement has no default case item
+Info (10264): Verilog HDL Case Statement information at MFE.v(61): all case item expressions in this case statement are onehot
+Warning (10240): Verilog HDL Always Construct warning at MFE.v(61): inferring latch(es) for variable "next_state", which holds its previous value in one or more paths through the always construct
+Warning (10230): Verilog HDL assignment warning at MFE.v(260): truncated value with size 32 to match size of target (4)
+Warning (10230): Verilog HDL assignment warning at MFE.v(263): truncated value with size 32 to match size of target (14)
+Warning (10230): Verilog HDL assignment warning at MFE.v(266): truncated value with size 32 to match size of target (14)
+Warning (10230): Verilog HDL assignment warning at MFE.v(270): truncated value with size 32 to match size of target (14)
+Warning (10230): Verilog HDL assignment warning at MFE.v(274): truncated value with size 32 to match size of target (14)
+Warning (10230): Verilog HDL assignment warning at MFE.v(282): truncated value with size 32 to match size of target (14)
+Warning (10230): Verilog HDL assignment warning at MFE.v(286): truncated value with size 32 to match size of target (14)
+Warning (10230): Verilog HDL assignment warning at MFE.v(290): truncated value with size 32 to match size of target (14)
+Warning (10230): Verilog HDL assignment warning at MFE.v(294): truncated value with size 32 to match size of target (14)
+Warning (10230): Verilog HDL assignment warning at MFE.v(298): truncated value with size 32 to match size of target (14)
+Warning (10230): Verilog HDL assignment warning at MFE.v(313): truncated value with size 32 to match size of target (4)
+Warning (10230): Verilog HDL assignment warning at MFE.v(321): truncated value with size 32 to match size of target (14)
+Warning (10230): Verilog HDL assignment warning at MFE.v(332): truncated value with size 32 to match size of target (14)
+Warning (10230): Verilog HDL assignment warning at MFE.v(337): truncated value with size 32 to match size of target (14)
+Warning (10230): Verilog HDL assignment warning at MFE.v(353): truncated value with size 32 to match size of target (4)
+Warning (10230): Verilog HDL assignment warning at MFE.v(356): truncated value with size 32 to match size of target (14)
+Warning (10230): Verilog HDL assignment warning at MFE.v(359): truncated value with size 32 to match size of target (14)
+Warning (10230): Verilog HDL assignment warning at MFE.v(363): truncated value with size 32 to match size of target (14)
+Warning (10230): Verilog HDL assignment warning at MFE.v(367): truncated value with size 32 to match size of target (14)
+Warning (10230): Verilog HDL assignment warning at MFE.v(375): truncated value with size 32 to match size of target (14)
+Warning (10230): Verilog HDL assignment warning at MFE.v(379): truncated value with size 32 to match size of target (14)
+Warning (10230): Verilog HDL assignment warning at MFE.v(383): truncated value with size 32 to match size of target (14)
+Warning (10230): Verilog HDL assignment warning at MFE.v(387): truncated value with size 32 to match size of target (14)
+Warning (10230): Verilog HDL assignment warning at MFE.v(391): truncated value with size 32 to match size of target (14)
+Warning (10230): Verilog HDL assignment warning at MFE.v(402): truncated value with size 32 to match size of target (4)
+Warning (10230): Verilog HDL assignment warning at MFE.v(405): truncated value with size 32 to match size of target (14)
+Warning (10230): Verilog HDL assignment warning at MFE.v(408): truncated value with size 32 to match size of target (14)
+Warning (10230): Verilog HDL assignment warning at MFE.v(412): truncated value with size 32 to match size of target (14)
+Warning (10230): Verilog HDL assignment warning at MFE.v(416): truncated value with size 32 to match size of target (14)
+Warning (10230): Verilog HDL assignment warning at MFE.v(424): truncated value with size 32 to match size of target (14)
+Warning (10230): Verilog HDL assignment warning at MFE.v(428): truncated value with size 32 to match size of target (14)
+Warning (10230): Verilog HDL assignment warning at MFE.v(432): truncated value with size 32 to match size of target (14)
+Warning (10230): Verilog HDL assignment warning at MFE.v(436): truncated value with size 32 to match size of target (14)
+Warning (10230): Verilog HDL assignment warning at MFE.v(440): truncated value with size 32 to match size of target (14)
+Warning (10230): Verilog HDL assignment warning at MFE.v(451): truncated value with size 32 to match size of target (4)
+Warning (10230): Verilog HDL assignment warning at MFE.v(457): truncated value with size 32 to match size of target (14)
+Warning (10230): Verilog HDL assignment warning at MFE.v(468): truncated value with size 32 to match size of target (14)
+Warning (10230): Verilog HDL assignment warning at MFE.v(473): truncated value with size 32 to match size of target (14)
+Warning (10230): Verilog HDL assignment warning at MFE.v(478): truncated value with size 32 to match size of target (14)
+Warning (10230): Verilog HDL assignment warning at MFE.v(483): truncated value with size 32 to match size of target (14)
+Warning (10230): Verilog HDL assignment warning at MFE.v(500): truncated value with size 32 to match size of target (4)
+Warning (10230): Verilog HDL assignment warning at MFE.v(503): truncated value with size 32 to match size of target (14)
+Warning (10230): Verilog HDL assignment warning at MFE.v(507): truncated value with size 32 to match size of target (14)
+Warning (10230): Verilog HDL assignment warning at MFE.v(511): truncated value with size 32 to match size of target (14)
+Warning (10230): Verilog HDL assignment warning at MFE.v(520): truncated value with size 32 to match size of target (14)
+Warning (10230): Verilog HDL assignment warning at MFE.v(524): truncated value with size 32 to match size of target (14)
+Warning (10230): Verilog HDL assignment warning at MFE.v(528): truncated value with size 32 to match size of target (14)
+Warning (10230): Verilog HDL assignment warning at MFE.v(532): truncated value with size 32 to match size of target (14)
+Warning (10230): Verilog HDL assignment warning at MFE.v(535): truncated value with size 32 to match size of target (14)
+Warning (10230): Verilog HDL assignment warning at MFE.v(547): truncated value with size 32 to match size of target (4)
+Warning (10230): Verilog HDL assignment warning at MFE.v(550): truncated value with size 32 to match size of target (14)
+Warning (10230): Verilog HDL assignment warning at MFE.v(553): truncated value with size 32 to match size of target (14)
+Warning (10230): Verilog HDL assignment warning at MFE.v(557): truncated value with size 32 to match size of target (14)
+Warning (10230): Verilog HDL assignment warning at MFE.v(561): truncated value with size 32 to match size of target (14)
+Warning (10230): Verilog HDL assignment warning at MFE.v(569): truncated value with size 32 to match size of target (14)
+Warning (10230): Verilog HDL assignment warning at MFE.v(573): truncated value with size 32 to match size of target (14)
+Warning (10230): Verilog HDL assignment warning at MFE.v(577): truncated value with size 32 to match size of target (14)
+Warning (10230): Verilog HDL assignment warning at MFE.v(581): truncated value with size 32 to match size of target (14)
+Warning (10230): Verilog HDL assignment warning at MFE.v(585): truncated value with size 32 to match size of target (14)
+Warning (10230): Verilog HDL assignment warning at MFE.v(596): truncated value with size 32 to match size of target (4)
+Warning (10230): Verilog HDL assignment warning at MFE.v(599): truncated value with size 32 to match size of target (14)
+Warning (10230): Verilog HDL assignment warning at MFE.v(602): truncated value with size 32 to match size of target (14)
+Warning (10230): Verilog HDL assignment warning at MFE.v(606): truncated value with size 32 to match size of target (14)
+Warning (10230): Verilog HDL assignment warning at MFE.v(610): truncated value with size 32 to match size of target (14)
+Warning (10230): Verilog HDL assignment warning at MFE.v(618): truncated value with size 32 to match size of target (14)
+Warning (10230): Verilog HDL assignment warning at MFE.v(622): truncated value with size 32 to match size of target (14)
+Warning (10230): Verilog HDL assignment warning at MFE.v(626): truncated value with size 32 to match size of target (14)
+Warning (10230): Verilog HDL assignment warning at MFE.v(630): truncated value with size 32 to match size of target (14)
+Warning (10230): Verilog HDL assignment warning at MFE.v(634): truncated value with size 32 to match size of target (14)
+Warning (10230): Verilog HDL assignment warning at MFE.v(645): truncated value with size 32 to match size of target (4)
+Warning (10230): Verilog HDL assignment warning at MFE.v(648): truncated value with size 32 to match size of target (14)
+Warning (10230): Verilog HDL assignment warning at MFE.v(651): truncated value with size 32 to match size of target (14)
+Warning (10230): Verilog HDL assignment warning at MFE.v(655): truncated value with size 32 to match size of target (14)
+Warning (10230): Verilog HDL assignment warning at MFE.v(659): truncated value with size 32 to match size of target (14)
+Warning (10230): Verilog HDL assignment warning at MFE.v(667): truncated value with size 32 to match size of target (14)
+Warning (10230): Verilog HDL assignment warning at MFE.v(671): truncated value with size 32 to match size of target (14)
+Warning (10230): Verilog HDL assignment warning at MFE.v(675): truncated value with size 32 to match size of target (14)
+Warning (10230): Verilog HDL assignment warning at MFE.v(679): truncated value with size 32 to match size of target (14)
+Warning (10230): Verilog HDL assignment warning at MFE.v(683): truncated value with size 32 to match size of target (14)
+Warning (10230): Verilog HDL assignment warning at MFE.v(706): truncated value with size 32 to match size of target (4)
+Warning (10230): Verilog HDL assignment warning at MFE.v(710): truncated value with size 32 to match size of target (4)
+Warning (10230): Verilog HDL assignment warning at MFE.v(730): truncated value with size 32 to match size of target (14)
+Warning (10230): Verilog HDL assignment warning at MFE.v(731): truncated value with size 32 to match size of target (8)
+Warning (10230): Verilog HDL assignment warning at MFE.v(736): truncated value with size 32 to match size of target (8)
+Info (10264): Verilog HDL Case Statement information at MFE.v(239): all case item expressions in this case statement are onehot
+Info (10041): Inferred latch for "next_state.000010100" at MFE.v(61)
+Info (10041): Inferred latch for "next_state.000010011" at MFE.v(61)
+Info (10041): Inferred latch for "next_state.000010010" at MFE.v(61)
+Info (10041): Inferred latch for "next_state.000010001" at MFE.v(61)
+Info (10041): Inferred latch for "next_state.000010000" at MFE.v(61)
+Info (10041): Inferred latch for "next_state.000001111" at MFE.v(61)
+Info (10041): Inferred latch for "next_state.000001110" at MFE.v(61)
+Info (10041): Inferred latch for "next_state.000001101" at MFE.v(61)
+Info (10041): Inferred latch for "next_state.000001100" at MFE.v(61)
+Info (10041): Inferred latch for "next_state.000001011" at MFE.v(61)
+Info (10041): Inferred latch for "next_state.000001010" at MFE.v(61)
+Info (10041): Inferred latch for "next_state.000001001" at MFE.v(61)
+Info (10041): Inferred latch for "next_state.000000111" at MFE.v(61)
+Info (10041): Inferred latch for "next_state.000000110" at MFE.v(61)
+Info (10041): Inferred latch for "next_state.000000101" at MFE.v(61)
+Info (10041): Inferred latch for "next_state.000000100" at MFE.v(61)
+Info (10041): Inferred latch for "next_state.000000011" at MFE.v(61)
+Info (10041): Inferred latch for "next_state.000000010" at MFE.v(61)
+Info (10041): Inferred latch for "next_state.000000001" at MFE.v(61)
+Info (10041): Inferred latch for "next_state.000000000" at MFE.v(61)
+Info (17049): 14 registers lost all their fanouts during netlist optimizations.
+Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
+    Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
+Warning (21074): Design contains 8 input pin(s) that do not drive logic
+    Warning (15610): No output dependent on input pin "data_rd[0]"
+    Warning (15610): No output dependent on input pin "data_rd[1]"
+    Warning (15610): No output dependent on input pin "data_rd[2]"
+    Warning (15610): No output dependent on input pin "data_rd[3]"
+    Warning (15610): No output dependent on input pin "data_rd[4]"
+    Warning (15610): No output dependent on input pin "data_rd[5]"
+    Warning (15610): No output dependent on input pin "data_rd[6]"
+    Warning (15610): No output dependent on input pin "data_rd[7]"
+Info (21057): Implemented 727 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 19 input pins
+    Info (21059): Implemented 38 output pins
+    Info (21061): Implemented 670 logic cells
+Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 96 warnings
+    Info: Peak virtual memory: 4596 megabytes
+    Info: Processing ended: Wed Jun 09 16:04:02 2021
+    Info: Elapsed time: 00:00:03
+    Info: Total CPU time (on all processors): 00:00:03
+
+
