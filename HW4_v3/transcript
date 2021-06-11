@@ -1,0 +1,2946 @@
+# Compile of MFE.v was successful.
+# Compile of testfixture.v was successful.
+# 2 compiles, 0 failed with no errors. 
+vsim +notimingchecks -gui -novopt work.testfixture
+# vsim +notimingchecks -gui -novopt work.testfixture 
+# Refreshing D:/109-2_NCKU/HW4_v3/work.testfixture
+# Loading work.testfixture
+# Refreshing D:/109-2_NCKU/HW4_v3/work.MFE
+# Loading work.MFE
+add wave -position end  sim:/testfixture/u_mfe/clk
+add wave -position end  sim:/testfixture/u_mfe/reset
+add wave -position end  sim:/testfixture/u_mfe/busy
+add wave -position end  sim:/testfixture/u_mfe/ready
+add wave -position end  sim:/testfixture/u_mfe/iaddr
+add wave -position end  sim:/testfixture/u_mfe/idata
+add wave -position end  sim:/testfixture/u_mfe/data_rd
+add wave -position end  sim:/testfixture/u_mfe/data_wr
+add wave -position end  sim:/testfixture/u_mfe/addr
+add wave -position end  sim:/testfixture/u_mfe/wen
+add wave -position end  sim:/testfixture/u_mfe/idata_load
+add wave -position end  sim:/testfixture/u_mfe/data_rd_load
+add wave -position end  sim:/testfixture/u_mfe/addr_count
+add wave -position end  sim:/testfixture/u_mfe/i
+add wave -position end  sim:/testfixture/u_mfe/j
+add wave -position end  sim:/testfixture/u_mfe/map_case
+add wave -position end  sim:/testfixture/u_mfe/mask_count
+add wave -position end  sim:/testfixture/u_mfe/sort_count
+add wave -position end  sim:/testfixture/u_mfe/midian
+add wave -position end  sim:/testfixture/u_mfe/b11
+add wave -position end  sim:/testfixture/u_mfe/b12
+add wave -position end  sim:/testfixture/u_mfe/b13
+add wave -position end  sim:/testfixture/u_mfe/b21
+add wave -position end  sim:/testfixture/u_mfe/b22
+add wave -position end  sim:/testfixture/u_mfe/b23
+add wave -position end  sim:/testfixture/u_mfe/b31
+add wave -position end  sim:/testfixture/u_mfe/b32
+add wave -position end  sim:/testfixture/u_mfe/b33
+add wave -position end  sim:/testfixture/u_mfe/c31
+add wave -position end  sim:/testfixture/u_mfe/c22
+add wave -position end  sim:/testfixture/u_mfe/c13
+add wave -position end  sim:/testfixture/u_mfe/medfilt_data
+add wave -position end  sim:/testfixture/u_mfe/curt_state
+add wave -position end  sim:/testfixture/u_mfe/next_state
+# Compile of MFE.v was successful.
+# Compile of testfixture.v was successful.
+# 2 compiles, 0 failed with no errors. 
+restart
+# Refreshing D:/109-2_NCKU/HW4_v3/work.testfixture
+# Loading work.testfixture
+# Refreshing D:/109-2_NCKU/HW4_v3/work.MFE
+# Loading work.MFE
+run -all
+# -----------------------------------------------------
+# 
+# START!!! Simulation Start .....
+# 
+# -----------------------------------------------------
+# 
+#  Result image is correct !
+#  
+# -----------------------------------------------------
+# 
+# --------------------- S U M M A R Y -----------------
+# 
+# Congratulations! Result image data have been generated successfully! The result is PASS!!
+# 
+# -----------------------------------------------------
+# 
+# ** Note: $finish    : D:/109-2_NCKU/HW4_v3/testfixture.v(123)
+#    Time: 5570660 ns  Iteration: 0  Instance: /testfixture
+# 1
+# Break in Module testfixture at D:/109-2_NCKU/HW4_v3/testfixture.v line 123
+add wave -position 17  sim:/testfixture/u_mfe/mask_temp
+restart
+run -continue
+# -----------------------------------------------------
+# 
+# START!!! Simulation Start .....
+# 
+# -----------------------------------------------------
+# 
+#  Result image is correct !
+#  
+# -----------------------------------------------------
+# 
+# --------------------- S U M M A R Y -----------------
+# 
+# Congratulations! Result image data have been generated successfully! The result is PASS!!
+# 
+# -----------------------------------------------------
+# 
+# ** Note: $finish    : D:/109-2_NCKU/HW4_v3/testfixture.v(123)
+#    Time: 5570660 ns  Iteration: 0  Instance: /testfixture
+# 1
+# Break in Module testfixture at D:/109-2_NCKU/HW4_v3/testfixture.v line 123
+run
+restart
+run -all
+# -----------------------------------------------------
+# 
+# START!!! Simulation Start .....
+# 
+# -----------------------------------------------------
+# 
+#  Result image is correct !
+#  
+# -----------------------------------------------------
+# 
+# --------------------- S U M M A R Y -----------------
+# 
+# Congratulations! Result image data have been generated successfully! The result is PASS!!
+# 
+# -----------------------------------------------------
+# 
+# ** Note: $finish    : D:/109-2_NCKU/HW4_v3/testfixture.v(123)
+#    Time: 5570660 ns  Iteration: 0  Instance: /testfixture
+# 1
+# Break in Module testfixture at D:/109-2_NCKU/HW4_v3/testfixture.v line 123
+add wave -position 17  sim:/testfixture/u_mfe/mask
+# Compile of MFE.v was successful.
+# Compile of testfixture.v was successful.
+# 2 compiles, 0 failed with no errors. 
+restart
+# Refreshing D:/109-2_NCKU/HW4_v3/work.testfixture
+# Loading work.testfixture
+# Refreshing D:/109-2_NCKU/HW4_v3/work.MFE
+# Loading work.MFE
+run -all
+# -----------------------------------------------------
+# 
+# START!!! Simulation Start .....
+# 
+# -----------------------------------------------------
+# 
+#  Result image is correct !
+#  
+# -----------------------------------------------------
+# 
+# --------------------- S U M M A R Y -----------------
+# 
+# Congratulations! Result image data have been generated successfully! The result is PASS!!
+# 
+# -----------------------------------------------------
+# 
+# ** Note: $finish    : D:/109-2_NCKU/HW4_v3/testfixture.v(123)
+#    Time: 5570660 ns  Iteration: 0  Instance: /testfixture
+# 1
+# Break in Module testfixture at D:/109-2_NCKU/HW4_v3/testfixture.v line 123
+# Compile of MFE.v was successful.
+# Compile of testfixture.v was successful.
+# 2 compiles, 0 failed with no errors. 
+restart
+# Refreshing D:/109-2_NCKU/HW4_v3/work.testfixture
+# Loading work.testfixture
+# Refreshing D:/109-2_NCKU/HW4_v3/work.MFE
+# Loading work.MFE
+run -all
+# -----------------------------------------------------
+# 
+# START!!! Simulation Start .....
+# 
+# -----------------------------------------------------
+# 
+#  Result image is correct !
+#  
+# -----------------------------------------------------
+# 
+# --------------------- S U M M A R Y -----------------
+# 
+# Congratulations! Result image data have been generated successfully! The result is PASS!!
+# 
+# -----------------------------------------------------
+# 
+# ** Note: $finish    : D:/109-2_NCKU/HW4_v3/testfixture.v(123)
+#    Time: 5570660 ns  Iteration: 0  Instance: /testfixture
+# 1
+# Break in Module testfixture at D:/109-2_NCKU/HW4_v3/testfixture.v line 123
+# Compile of MFE.v was successful.
+# Compile of testfixture.v was successful.
+# 2 compiles, 0 failed with no errors. 
+restart
+# Refreshing D:/109-2_NCKU/HW4_v3/work.testfixture
+# Loading work.testfixture
+# Refreshing D:/109-2_NCKU/HW4_v3/work.MFE
+# Loading work.MFE
+run -all
+# -----------------------------------------------------
+# 
+# START!!! Simulation Start .....
+# 
+# -----------------------------------------------------
+# 
+# WRONG! Result image has error , Pixel         133 is wrong!
+#                The output data is 9c, but the expected data is 9b 
+# WRONG! Result image has error , Pixel         134 is wrong!
+#                The output data is 9b, but the expected data is 9a 
+# WRONG! Result image has error , Pixel         136 is wrong!
+#                The output data is a0, but the expected data is 9a 
+# WRONG! Result image has error , Pixel         140 is wrong!
+#                The output data is a3, but the expected data is aa 
+# WRONG! Result image has error , Pixel         141 is wrong!
+#                The output data is 9f, but the expected data is a3 
+# WRONG! Result image has error , Pixel         145 is wrong!
+#                The output data is 64, but the expected data is 60 
+# WRONG! Result image has error , Pixel         146 is wrong!
+#                The output data is 69, but the expected data is 64 
+# WRONG! Result image has error , Pixel         147 is wrong!
+#                The output data is 6c, but the expected data is 67 
+# WRONG! Result image has error , Pixel         148 is wrong!
+#                The output data is 6c, but the expected data is 69 
+# WRONG! Result image has error , Pixel         149 is wrong!
+#                The output data is 6b, but the expected data is 69 
+# WRONG! Result image has error , Pixel         150 is wrong!
+#                The output data is 6b, but the expected data is 6a 
+# WRONG! Result image has error , Pixel         151 is wrong!
+#                The output data is 6c, but the expected data is 6b 
+# WRONG! Result image has error , Pixel         152 is wrong!
+#                The output data is 6d, but the expected data is 6b 
+# WRONG! Result image has error , Pixel         153 is wrong!
+#                The output data is 6d, but the expected data is 6c 
+# WRONG! Result image has error , Pixel         154 is wrong!
+#                The output data is 75, but the expected data is 6d 
+# WRONG! Result image has error , Pixel         155 is wrong!
+#                The output data is 7a, but the expected data is 75 
+# WRONG! Result image has error , Pixel         156 is wrong!
+#                The output data is 7a, but the expected data is 78 
+# WRONG! Result image has error , Pixel         157 is wrong!
+#                The output data is 7c, but the expected data is 7a 
+# WRONG! Result image has error , Pixel         158 is wrong!
+#                The output data is 82, but the expected data is 7c 
+# WRONG! Result image has error , Pixel         159 is wrong!
+#                The output data is 84, but the expected data is 82 
+# WRONG! Result image has error , Pixel         160 is wrong!
+#                The output data is 83, but the expected data is 82 
+# WRONG! Result image has error , Pixel         162 is wrong!
+#                The output data is 83, but the expected data is 82 
+# WRONG! Result image has error , Pixel         163 is wrong!
+#                The output data is 83, but the expected data is 82 
+# WRONG! Result image has error , Pixel         164 is wrong!
+#                The output data is 83, but the expected data is 82 
+# WRONG! Result image has error , Pixel         166 is wrong!
+#                The output data is 85, but the expected data is 83 
+# WRONG! Result image has error , Pixel         167 is wrong!
+#                The output data is 86, but the expected data is 84 
+# WRONG! Result image has error , Pixel         171 is wrong!
+#                The output data is 87, but the expected data is 86 
+# WRONG! Result image has error , Pixel         172 is wrong!
+#                The output data is 86, but the expected data is 85 
+# WRONG! Result image has error , Pixel         174 is wrong!
+#                The output data is 88, but the expected data is 84 
+# WRONG! Result image has error , Pixel         178 is wrong!
+#                The output data is 86, but the expected data is 85 
+# WRONG! Result image has error , Pixel         179 is wrong!
+#                The output data is 86, but the expected data is 84 
+# WRONG! Result image has error , Pixel         182 is wrong!
+#                The output data is 82, but the expected data is 81 
+# WRONG! Result image has error , Pixel         183 is wrong!
+#                The output data is 83, but the expected data is 81 
+# WRONG! Result image has error , Pixel         184 is wrong!
+#                The output data is 85, but the expected data is 83 
+# WRONG! Result image has error , Pixel         185 is wrong!
+#                The output data is 85, but the expected data is 83 
+# WRONG! Result image has error , Pixel         186 is wrong!
+#                The output data is 83, but the expected data is 82 
+# WRONG! Result image has error , Pixel         187 is wrong!
+#                The output data is 84, but the expected data is 82 
+# WRONG! Result image has error , Pixel         188 is wrong!
+#                The output data is 85, but the expected data is 83 
+# WRONG! Result image has error , Pixel         189 is wrong!
+#                The output data is 85, but the expected data is 84 
+# WRONG! Result image has error , Pixel         190 is wrong!
+#                The output data is 85, but the expected data is 84 
+# WRONG! Result image has error , Pixel         191 is wrong!
+#                The output data is 87, but the expected data is 85 
+# WRONG! Result image has error , Pixel         192 is wrong!
+#                The output data is 87, but the expected data is 84 
+# WRONG! Result image has error , Pixel         194 is wrong!
+#                The output data is 84, but the expected data is 82 
+# WRONG! Result image has error , Pixel         197 is wrong!
+#                The output data is 81, but the expected data is 80 
+# WRONG! Result image has error , Pixel         198 is wrong!
+#                The output data is 83, but the expected data is 80 
+# WRONG! Result image has error , Pixel         199 is wrong!
+#                The output data is 83, but the expected data is 7f 
+# WRONG! Result image has error , Pixel         201 is wrong!
+#                The output data is 9c, but the expected data is 81 
+# WRONG! Result image has error , Pixel         203 is wrong!
+#                The output data is 81, but the expected data is 80 
+# WRONG! Result image has error , Pixel         208 is wrong!
+#                The output data is 7f, but the expected data is 6d 
+# WRONG! Result image has error , Pixel         209 is wrong!
+#                The output data is 90, but the expected data is 7f 
+# WRONG! Result image has error , Pixel         210 is wrong!
+#                The output data is 98, but the expected data is 90 
+# WRONG! Result image has error , Pixel         211 is wrong!
+#                The output data is 9c, but the expected data is 98 
+# WRONG! Result image has error , Pixel         212 is wrong!
+#                The output data is a0, but the expected data is 9d 
+# WRONG! Result image has error , Pixel         215 is wrong!
+#                The output data is 9c, but the expected data is 9a 
+# WRONG! Result image has error , Pixel         216 is wrong!
+#                The output data is 9c, but the expected data is 9b 
+# WRONG! Result image has error , Pixel         218 is wrong!
+#                The output data is 9c, but the expected data is 9b 
+# WRONG! Result image has error , Pixel         219 is wrong!
+#                The output data is 9c, but the expected data is 9a 
+# WRONG! Result image has error , Pixel         220 is wrong!
+#                The output data is 9a, but the expected data is 99 
+# WRONG! Result image has error , Pixel         221 is wrong!
+#                The output data is 9a, but the expected data is 99 
+# WRONG! Result image has error , Pixel         222 is wrong!
+#                The output data is 9b, but the expected data is 99 
+# WRONG! Result image has error , Pixel         223 is wrong!
+#                The output data is 9c, but the expected data is 9a 
+# WRONG! Result image has error , Pixel         224 is wrong!
+#                The output data is 9c, but the expected data is 9b 
+# WRONG! Result image has error , Pixel         226 is wrong!
+#                The output data is 9c, but the expected data is 9b 
+# WRONG! Result image has error , Pixel         227 is wrong!
+#                The output data is 9c, but the expected data is 9a 
+# WRONG! Result image has error , Pixel         228 is wrong!
+#                The output data is a0, but the expected data is 9c 
+# WRONG! Result image has error , Pixel         231 is wrong!
+#                The output data is d7, but the expected data is d9 
+# WRONG! Result image has error , Pixel         232 is wrong!
+#                The output data is b5, but the expected data is d7 
+# WRONG! Result image has error , Pixel         233 is wrong!
+#                The output data is a0, but the expected data is b5 
+# WRONG! Result image has error , Pixel         235 is wrong!
+#                The output data is 75, but the expected data is 6c 
+# WRONG! Result image has error , Pixel         236 is wrong!
+#                The output data is 78, but the expected data is 73 
+# WRONG! Result image has error , Pixel         238 is wrong!
+#                The output data is 7b, but the expected data is 78 
+# WRONG! Result image has error , Pixel         239 is wrong!
+#                The output data is 7c, but the expected data is 7b 
+# WRONG! Result image has error , Pixel         240 is wrong!
+#                The output data is 7c, but the expected data is 79 
+# WRONG! Result image has error , Pixel         241 is wrong!
+#                The output data is 7a, but the expected data is 79 
+# WRONG! Result image has error , Pixel         242 is wrong!
+#                The output data is 7a, but the expected data is 79 
+# WRONG! Result image has error , Pixel         243 is wrong!
+#                The output data is 7c, but the expected data is 7a 
+# WRONG! Result image has error , Pixel         244 is wrong!
+#                The output data is 7d, but the expected data is 7b 
+# WRONG! Result image has error , Pixel         245 is wrong!
+#                The output data is 7d, but the expected data is 7c 
+# WRONG! Result image has error , Pixel         246 is wrong!
+#                The output data is 7d, but the expected data is 7b 
+# WRONG! Result image has error , Pixel         247 is wrong!
+#                The output data is 7d, but the expected data is 7c 
+# WRONG! Result image has error , Pixel         248 is wrong!
+#                The output data is 7e, but the expected data is 7d 
+# WRONG! Result image has error , Pixel         249 is wrong!
+#                The output data is 7e, but the expected data is 7d 
+# WRONG! Result image has error , Pixel         251 is wrong!
+#                The output data is 82, but the expected data is 7d 
+# WRONG! Result image has error , Pixel         252 is wrong!
+#                The output data is 7e, but the expected data is 7b 
+# WRONG! Result image has error , Pixel         253 is wrong!
+#                The output data is 88, but the expected data is 77 
+# WRONG! Result image has error , Pixel         254 is wrong!
+#                The output data is 9c, but the expected data is 76 
+# WRONG! Result image has error , Pixel         257 is wrong!
+#                The output data is 9c, but the expected data is 9e 
+# WRONG! Result image has error , Pixel         258 is wrong!
+#                The output data is 9d, but the expected data is 9c 
+# WRONG! Result image has error , Pixel         259 is wrong!
+#                The output data is 9d, but the expected data is 9c 
+# WRONG! Result image has error , Pixel         260 is wrong!
+#                The output data is 9c, but the expected data is 9b 
+# WRONG! Result image has error , Pixel         262 is wrong!
+#                The output data is 9b, but the expected data is 9a 
+# WRONG! Result image has error , Pixel         264 is wrong!
+#                The output data is a0, but the expected data is 9a 
+# WRONG! Result image has error , Pixel         268 is wrong!
+#                The output data is a2, but the expected data is a9 
+# WRONG! Result image has error , Pixel         269 is wrong!
+#                The output data is 9d, but the expected data is 9f 
+# WRONG! Result image has error , Pixel         273 is wrong!
+#                The output data is 62, but the expected data is 5e 
+# WRONG! Result image has error , Pixel         274 is wrong!
+#                The output data is 66, but the expected data is 62 
+# WRONG! Result image has error , Pixel         275 is wrong!
+#                The output data is 6c, but the expected data is 66 
+# WRONG! Result image has error , Pixel         276 is wrong!
+#                The output data is 6c, but the expected data is 68 
+# WRONG! Result image has error , Pixel         277 is wrong!
+#                The output data is 6c, but the expected data is 69 
+# WRONG! Result image has error , Pixel         278 is wrong!
+#                The output data is 6b, but the expected data is 68 
+# WRONG! Result image has error , Pixel         279 is wrong!
+#                The output data is 6a, but the expected data is 68 
+# WRONG! Result image has error , Pixel         280 is wrong!
+#                The output data is 6c, but the expected data is 68 
+# WRONG! Result image has error , Pixel         281 is wrong!
+#                The output data is 6d, but the expected data is 6c 
+# WRONG! Result image has error , Pixel         282 is wrong!
+#                The output data is 75, but the expected data is 6d 
+# WRONG! Result image has error , Pixel         283 is wrong!
+#                The output data is 78, but the expected data is 75 
+# WRONG! Result image has error , Pixel         284 is wrong!
+#                The output data is 7c, but the expected data is 78 
+# WRONG! Result image has error , Pixel         285 is wrong!
+#                The output data is 7c, but the expected data is 7b 
+# WRONG! Result image has error , Pixel         286 is wrong!
+#                The output data is 7f, but the expected data is 7c 
+# WRONG! Result image has error , Pixel         287 is wrong!
+#                The output data is 9d, but the expected data is 7f 
+# WRONG! Result image has error , Pixel         288 is wrong!
+#                The output data is 83, but the expected data is 82 
+# WRONG! Result image has error , Pixel         290 is wrong!
+#                The output data is 83, but the expected data is 82 
+# WRONG! Result image has error , Pixel         291 is wrong!
+#                The output data is 83, but the expected data is 82 
+# WRONG! Result image has error , Pixel         294 is wrong!
+#                The output data is 84, but the expected data is 83 
+# WRONG! Result image has error , Pixel         295 is wrong!
+#                The output data is 85, but the expected data is 84 
+# WRONG! Result image has error , Pixel         296 is wrong!
+#                The output data is 86, but the expected data is 85 
+# WRONG! Result image has error , Pixel         299 is wrong!
+#                The output data is 87, but the expected data is 86 
+# WRONG! Result image has error , Pixel         303 is wrong!
+#                The output data is 86, but the expected data is 84 
+# WRONG! Result image has error , Pixel         306 is wrong!
+#                The output data is 84, but the expected data is 83 
+# WRONG! Result image has error , Pixel         307 is wrong!
+#                The output data is 84, but the expected data is 83 
+# WRONG! Result image has error , Pixel         308 is wrong!
+#                The output data is 84, but the expected data is 83 
+# WRONG! Result image has error , Pixel         311 is wrong!
+#                The output data is 83, but the expected data is 82 
+# WRONG! Result image has error , Pixel         312 is wrong!
+#                The output data is 83, but the expected data is 82 
+# WRONG! Result image has error , Pixel         315 is wrong!
+#                The output data is 84, but the expected data is 82 
+# WRONG! Result image has error , Pixel         316 is wrong!
+#                The output data is 85, but the expected data is 83 
+# WRONG! Result image has error , Pixel         317 is wrong!
+#                The output data is 84, but the expected data is 83 
+# WRONG! Result image has error , Pixel         318 is wrong!
+#                The output data is 84, but the expected data is 83 
+# WRONG! Result image has error , Pixel         319 is wrong!
+#                The output data is 85, but the expected data is 84 
+# WRONG! Result image has error , Pixel         320 is wrong!
+#                The output data is 85, but the expected data is 84 
+# WRONG! Result image has error , Pixel         323 is wrong!
+#                The output data is 81, but the expected data is 80 
+# WRONG! Result image has error , Pixel         324 is wrong!
+#                The output data is 81, but the expected data is 80 
+# WRONG! Result image has error , Pixel         325 is wrong!
+#                The output data is 81, but the expected data is 80 
+# WRONG! Result image has error , Pixel         326 is wrong!
+#                The output data is 81, but the expected data is 80 
+# WRONG! Result image has error , Pixel         327 is wrong!
+#                The output data is 81, but the expected data is 80 
+# WRONG! Result image has error , Pixel         328 is wrong!
+#                The output data is 83, but the expected data is 81 
+# WRONG! Result image has error , Pixel         329 is wrong!
+#                The output data is 9d, but the expected data is 81 
+# WRONG! Result image has error , Pixel         336 is wrong!
+#                The output data is 75, but the expected data is 6d 
+# WRONG! Result image has error , Pixel         337 is wrong!
+#                The output data is 89, but the expected data is 75 
+# WRONG! Result image has error , Pixel         338 is wrong!
+#                The output data is 95, but the expected data is 89 
+# WRONG! Result image has error , Pixel         339 is wrong!
+#                The output data is 9c, but the expected data is 95 
+# WRONG! Result image has error , Pixel         340 is wrong!
+#                The output data is a0, but the expected data is 9c 
+# WRONG! Result image has error , Pixel         346 is wrong!
+#                The output data is 9d, but the expected data is 9c 
+# WRONG! Result image has error , Pixel         347 is wrong!
+#                The output data is 9d, but the expected data is 9c 
+# WRONG! Result image has error , Pixel         348 is wrong!
+#                The output data is 9c, but the expected data is 9a 
+# WRONG! Result image has error , Pixel         349 is wrong!
+#                The output data is 9b, but the expected data is 9a 
+# WRONG! Result image has error , Pixel         350 is wrong!
+#                The output data is 9b, but the expected data is 9a 
+# WRONG! Result image has error , Pixel         352 is wrong!
+#                The output data is 9c, but the expected data is 9b 
+# WRONG! Result image has error , Pixel         353 is wrong!
+#                The output data is 9b, but the expected data is 9a 
+# WRONG! Result image has error , Pixel         356 is wrong!
+#                The output data is 9d, but the expected data is 99 
+# WRONG! Result image has error , Pixel         360 is wrong!
+#                The output data is d2, but the expected data is d9 
+# WRONG! Result image has error , Pixel         361 is wrong!
+#                The output data is a2, but the expected data is d2 
+# WRONG! Result image has error , Pixel         363 is wrong!
+#                The output data is 6f, but the expected data is 6e 
+# WRONG! Result image has error , Pixel         364 is wrong!
+#                The output data is 75, but the expected data is 6f 
+# WRONG! Result image has error , Pixel         365 is wrong!
+#                The output data is 78, but the expected data is 75 
+# WRONG! Result image has error , Pixel         366 is wrong!
+#                The output data is 7b, but the expected data is 78 
+# WRONG! Result image has error , Pixel         367 is wrong!
+#                The output data is 7b, but the expected data is 78 
+# WRONG! Result image has error , Pixel         368 is wrong!
+#                The output data is 79, but the expected data is 78 
+# WRONG! Result image has error , Pixel         369 is wrong!
+#                The output data is 79, but the expected data is 78 
+# WRONG! Result image has error , Pixel         370 is wrong!
+#                The output data is 7a, but the expected data is 79 
+# WRONG! Result image has error , Pixel         371 is wrong!
+#                The output data is 7b, but the expected data is 79 
+# WRONG! Result image has error , Pixel         372 is wrong!
+#                The output data is 7c, but the expected data is 7a 
+# WRONG! Result image has error , Pixel         373 is wrong!
+#                The output data is 7d, but the expected data is 7b 
+# WRONG! Result image has error , Pixel         374 is wrong!
+#                The output data is 7e, but the expected data is 7b 
+# WRONG! Result image has error , Pixel         375 is wrong!
+#                The output data is 7e, but the expected data is 7d 
+# WRONG! Result image has error , Pixel         377 is wrong!
+#                The output data is 7f, but the expected data is 7e 
+# WRONG! Result image has error , Pixel         378 is wrong!
+#                The output data is 86, but the expected data is 7e 
+# WRONG! Result image has error , Pixel         379 is wrong!
+#                The output data is 86, but the expected data is 7e 
+# WRONG! Result image has error , Pixel         380 is wrong!
+#                The output data is 7e, but the expected data is 7d 
+# WRONG! Result image has error , Pixel         381 is wrong!
+#                The output data is 7e, but the expected data is 6a 
+# WRONG! Result image has error , Pixel         382 is wrong!
+#                The output data is 5d, but the expected data is 36 
+# WRONG! Result image has error , Pixel         385 is wrong!
+#                The output data is 9a, but the expected data is 9d 
+# WRONG! Result image has error , Pixel         386 is wrong!
+#                The output data is 9d, but the expected data is 9c 
+# WRONG! Result image has error , Pixel         387 is wrong!
+#                The output data is 9d, but the expected data is 9c 
+# WRONG! Result image has error , Pixel         389 is wrong!
+#                The output data is 9a, but the expected data is 9b 
+# WRONG! Result image has error , Pixel         391 is wrong!
+#                The output data is 9c, but the expected data is 9a 
+# WRONG! Result image has error , Pixel         392 is wrong!
+#                The output data is a2, but the expected data is a1 
+# WRONG! Result image has error , Pixel         395 is wrong!
+#                The output data is a5, but the expected data is a7 
+# WRONG! Result image has error , Pixel         396 is wrong!
+#                The output data is a0, but the expected data is a5 
+# WRONG! Result image has error , Pixel         397 is wrong!
+#                The output data is 9b, but the expected data is 9d 
+# WRONG! Result image has error , Pixel         401 is wrong!
+#                The output data is 63, but the expected data is 5e 
+# WRONG! Result image has error , Pixel         402 is wrong!
+#                The output data is 65, but the expected data is 63 
+# WRONG! Result image has error , Pixel         403 is wrong!
+#                The output data is 67, but the expected data is 65 
+# WRONG! Result image has error , Pixel         404 is wrong!
+#                The output data is 6c, but the expected data is 67 
+# WRONG! Result image has error , Pixel         405 is wrong!
+#                The output data is 6c, but the expected data is 6a 
+# WRONG! Result image has error , Pixel         406 is wrong!
+#                The output data is 6b, but the expected data is 6a 
+# WRONG! Result image has error , Pixel         408 is wrong!
+#                The output data is 69, but the expected data is 67 
+# WRONG! Result image has error , Pixel         409 is wrong!
+#                The output data is 6e, but the expected data is 69 
+# WRONG! Result image has error , Pixel         410 is wrong!
+#                The output data is 74, but the expected data is 6e 
+# WRONG! Result image has error , Pixel         411 is wrong!
+#                The output data is 76, but the expected data is 74 
+# WRONG! Result image has error , Pixel         412 is wrong!
+#                The output data is 7c, but the expected data is 76 
+# WRONG! Result image has error , Pixel         413 is wrong!
+#                The output data is 7d, but the expected data is 7c 
+# WRONG! Result image has error , Pixel         414 is wrong!
+#                The output data is 80, but the expected data is 7d 
+# WRONG! Result image has error , Pixel         415 is wrong!
+#                The output data is 9a, but the expected data is 80 
+# WRONG! Result image has error , Pixel         416 is wrong!
+#                The output data is 82, but the expected data is 81 
+# WRONG! Result image has error , Pixel         417 is wrong!
+#                The output data is 82, but the expected data is 81 
+# WRONG! Result image has error , Pixel         418 is wrong!
+#                The output data is 84, but the expected data is 82 
+# WRONG! Result image has error , Pixel         419 is wrong!
+#                The output data is 84, but the expected data is 83 
+# WRONG! Result image has error , Pixel         422 is wrong!
+#                The output data is 84, but the expected data is 83 
+# WRONG! Result image has error , Pixel         423 is wrong!
+#                The output data is 84, but the expected data is 83 
+# WRONG! Result image has error , Pixel         424 is wrong!
+#                The output data is 85, but the expected data is 83 
+#  Result image be found       11490 error !
+#  
+# -----------------------------------------------------
+# 
+# --------------------- S U M M A R Y -----------------
+# 
+# FAIL!!!  There are       11490 errors! in result image 
+# 
+# -----------------------------------------------------
+# 
+# ** Note: $finish    : D:/109-2_NCKU/HW4_v3/testfixture.v(123)
+#    Time: 5570660 ns  Iteration: 0  Instance: /testfixture
+# 1
+# Break in Module testfixture at D:/109-2_NCKU/HW4_v3/testfixture.v line 123
+# Compile of MFE.v was successful.
+# Compile of testfixture.v was successful.
+# 2 compiles, 0 failed with no errors. 
+restart
+# Refreshing D:/109-2_NCKU/HW4_v3/work.testfixture
+# Loading work.testfixture
+# Refreshing D:/109-2_NCKU/HW4_v3/work.MFE
+# Loading work.MFE
+run -all
+# -----------------------------------------------------
+# 
+# START!!! Simulation Start .....
+# 
+# -----------------------------------------------------
+# 
+# WRONG! Result image has error , Pixel         131 is wrong!
+#                The output data is 9c, but the expected data is 9d 
+# WRONG! Result image has error , Pixel         134 is wrong!
+#                The output data is 9b, but the expected data is 9a 
+# WRONG! Result image has error , Pixel         136 is wrong!
+#                The output data is 9c, but the expected data is 9a 
+# WRONG! Result image has error , Pixel         137 is wrong!
+#                The output data is a1, but the expected data is a3 
+# WRONG! Result image has error , Pixel         138 is wrong!
+#                The output data is a6, but the expected data is a8 
+# WRONG! Result image has error , Pixel         139 is wrong!
+#                The output data is a9, but the expected data is aa 
+# WRONG! Result image has error , Pixel         142 is wrong!
+#                The output data is 98, but the expected data is 91 
+# WRONG! Result image has error , Pixel         143 is wrong!
+#                The output data is 77, but the expected data is 76 
+# WRONG! Result image has error , Pixel         144 is wrong!
+#                The output data is 64, but the expected data is 60 
+# WRONG! Result image has error , Pixel         145 is wrong!
+#                The output data is 61, but the expected data is 60 
+# WRONG! Result image has error , Pixel         146 is wrong!
+#                The output data is 65, but the expected data is 64 
+# WRONG! Result image has error , Pixel         147 is wrong!
+#                The output data is 69, but the expected data is 67 
+# WRONG! Result image has error , Pixel         149 is wrong!
+#                The output data is 6b, but the expected data is 69 
+# WRONG! Result image has error , Pixel         152 is wrong!
+#                The output data is 6c, but the expected data is 6b 
+# WRONG! Result image has error , Pixel         153 is wrong!
+#                The output data is 6d, but the expected data is 6c 
+# WRONG! Result image has error , Pixel         154 is wrong!
+#                The output data is 72, but the expected data is 6d 
+# WRONG! Result image has error , Pixel         155 is wrong!
+#                The output data is 78, but the expected data is 75 
+# WRONG! Result image has error , Pixel         158 is wrong!
+#                The output data is 7d, but the expected data is 7c 
+# WRONG! Result image has error , Pixel         160 is wrong!
+#                The output data is 83, but the expected data is 82 
+# WRONG! Result image has error , Pixel         162 is wrong!
+#                The output data is 83, but the expected data is 82 
+# WRONG! Result image has error , Pixel         167 is wrong!
+#                The output data is 85, but the expected data is 84 
+# WRONG! Result image has error , Pixel         172 is wrong!
+#                The output data is 86, but the expected data is 85 
+# WRONG! Result image has error , Pixel         173 is wrong!
+#                The output data is 85, but the expected data is 84 
+# WRONG! Result image has error , Pixel         178 is wrong!
+#                The output data is 86, but the expected data is 85 
+# WRONG! Result image has error , Pixel         179 is wrong!
+#                The output data is 86, but the expected data is 84 
+# WRONG! Result image has error , Pixel         181 is wrong!
+#                The output data is 84, but the expected data is 82 
+# WRONG! Result image has error , Pixel         182 is wrong!
+#                The output data is 82, but the expected data is 81 
+# WRONG! Result image has error , Pixel         183 is wrong!
+#                The output data is 82, but the expected data is 81 
+# WRONG! Result image has error , Pixel         185 is wrong!
+#                The output data is 84, but the expected data is 83 
+# WRONG! Result image has error , Pixel         186 is wrong!
+#                The output data is 83, but the expected data is 82 
+# WRONG! Result image has error , Pixel         187 is wrong!
+#                The output data is 83, but the expected data is 82 
+# WRONG! Result image has error , Pixel         188 is wrong!
+#                The output data is 84, but the expected data is 83 
+# WRONG! Result image has error , Pixel         189 is wrong!
+#                The output data is 85, but the expected data is 84 
+# WRONG! Result image has error , Pixel         190 is wrong!
+#                The output data is 85, but the expected data is 84 
+# WRONG! Result image has error , Pixel         197 is wrong!
+#                The output data is 81, but the expected data is 80 
+# WRONG! Result image has error , Pixel         198 is wrong!
+#                The output data is 81, but the expected data is 80 
+# WRONG! Result image has error , Pixel         199 is wrong!
+#                The output data is 80, but the expected data is 7f 
+# WRONG! Result image has error , Pixel         204 is wrong!
+#                The output data is 7c, but the expected data is 7b 
+# WRONG! Result image has error , Pixel         207 is wrong!
+#                The output data is 72, but the expected data is 6d 
+# WRONG! Result image has error , Pixel         208 is wrong!
+#                The output data is 72, but the expected data is 6d 
+# WRONG! Result image has error , Pixel         209 is wrong!
+#                The output data is 86, but the expected data is 7f 
+# WRONG! Result image has error , Pixel         210 is wrong!
+#                The output data is 91, but the expected data is 90 
+# WRONG! Result image has error , Pixel         211 is wrong!
+#                The output data is 99, but the expected data is 98 
+# WRONG! Result image has error , Pixel         213 is wrong!
+#                The output data is 9d, but the expected data is 9e 
+# WRONG! Result image has error , Pixel         221 is wrong!
+#                The output data is 9a, but the expected data is 99 
+# WRONG! Result image has error , Pixel         223 is wrong!
+#                The output data is 9b, but the expected data is 9a 
+# WRONG! Result image has error , Pixel         226 is wrong!
+#                The output data is 9c, but the expected data is 9b 
+# WRONG! Result image has error , Pixel         227 is wrong!
+#                The output data is 9b, but the expected data is 9a 
+# WRONG! Result image has error , Pixel         232 is wrong!
+#                The output data is d6, but the expected data is d7 
+# WRONG! Result image has error , Pixel         233 is wrong!
+#                The output data is a2, but the expected data is b5 
+# WRONG! Result image has error , Pixel         235 is wrong!
+#                The output data is 6f, but the expected data is 6c 
+# WRONG! Result image has error , Pixel         236 is wrong!
+#                The output data is 75, but the expected data is 73 
+# WRONG! Result image has error , Pixel         238 is wrong!
+#                The output data is 79, but the expected data is 78 
+# WRONG! Result image has error , Pixel         240 is wrong!
+#                The output data is 7b, but the expected data is 79 
+# WRONG! Result image has error , Pixel         241 is wrong!
+#                The output data is 7a, but the expected data is 79 
+# WRONG! Result image has error , Pixel         243 is wrong!
+#                The output data is 7b, but the expected data is 7a 
+# WRONG! Result image has error , Pixel         245 is wrong!
+#                The output data is 7d, but the expected data is 7c 
+# WRONG! Result image has error , Pixel         248 is wrong!
+#                The output data is 7e, but the expected data is 7d 
+# WRONG! Result image has error , Pixel         253 is wrong!
+#                The output data is 7e, but the expected data is 77 
+# WRONG! Result image has error , Pixel         254 is wrong!
+#                The output data is 7e, but the expected data is 76 
+# WRONG! Result image has error , Pixel         257 is wrong!
+#                The output data is 9a, but the expected data is 9e 
+# WRONG! Result image has error , Pixel         262 is wrong!
+#                The output data is 9b, but the expected data is 9a 
+# WRONG! Result image has error , Pixel         264 is wrong!
+#                The output data is 9c, but the expected data is 9a 
+# WRONG! Result image has error , Pixel         265 is wrong!
+#                The output data is a1, but the expected data is a3 
+# WRONG! Result image has error , Pixel         270 is wrong!
+#                The output data is 91, but the expected data is 8c 
+# WRONG! Result image has error , Pixel         271 is wrong!
+#                The output data is 76, but the expected data is 74 
+# WRONG! Result image has error , Pixel         272 is wrong!
+#                The output data is 60, but the expected data is 5e 
+# WRONG! Result image has error , Pixel         273 is wrong!
+#                The output data is 60, but the expected data is 5e 
+# WRONG! Result image has error , Pixel         275 is wrong!
+#                The output data is 67, but the expected data is 66 
+# WRONG! Result image has error , Pixel         279 is wrong!
+#                The output data is 6a, but the expected data is 68 
+# WRONG! Result image has error , Pixel         280 is wrong!
+#                The output data is 6a, but the expected data is 68 
+# WRONG! Result image has error , Pixel         284 is wrong!
+#                The output data is 7a, but the expected data is 78 
+# WRONG! Result image has error , Pixel         286 is wrong!
+#                The output data is 7d, but the expected data is 7c 
+# WRONG! Result image has error , Pixel         287 is wrong!
+#                The output data is 82, but the expected data is 7f 
+# WRONG! Result image has error , Pixel         300 is wrong!
+#                The output data is 86, but the expected data is 85 
+# WRONG! Result image has error , Pixel         306 is wrong!
+#                The output data is 84, but the expected data is 83 
+# WRONG! Result image has error , Pixel         307 is wrong!
+#                The output data is 84, but the expected data is 83 
+# WRONG! Result image has error , Pixel         308 is wrong!
+#                The output data is 84, but the expected data is 83 
+# WRONG! Result image has error , Pixel         317 is wrong!
+#                The output data is 84, but the expected data is 83 
+# WRONG! Result image has error , Pixel         318 is wrong!
+#                The output data is 84, but the expected data is 83 
+# WRONG! Result image has error , Pixel         321 is wrong!
+#                The output data is 84, but the expected data is 83 
+# WRONG! Result image has error , Pixel         323 is wrong!
+#                The output data is 81, but the expected data is 80 
+# WRONG! Result image has error , Pixel         325 is wrong!
+#                The output data is 81, but the expected data is 80 
+# WRONG! Result image has error , Pixel         331 is wrong!
+#                The output data is 81, but the expected data is 80 
+# WRONG! Result image has error , Pixel         332 is wrong!
+#                The output data is 7c, but the expected data is 7b 
+# WRONG! Result image has error , Pixel         337 is wrong!
+#                The output data is 7f, but the expected data is 75 
+# WRONG! Result image has error , Pixel         338 is wrong!
+#                The output data is 90, but the expected data is 89 
+# WRONG! Result image has error , Pixel         339 is wrong!
+#                The output data is 98, but the expected data is 95 
+# WRONG! Result image has error , Pixel         340 is wrong!
+#                The output data is 9d, but the expected data is 9c 
+# WRONG! Result image has error , Pixel         341 is wrong!
+#                The output data is 9d, but the expected data is a0 
+# WRONG! Result image has error , Pixel         342 is wrong!
+#                The output data is 9d, but the expected data is 9e 
+# WRONG! Result image has error , Pixel         349 is wrong!
+#                The output data is 9b, but the expected data is 9a 
+# WRONG! Result image has error , Pixel         353 is wrong!
+#                The output data is 9b, but the expected data is 9a 
+# WRONG! Result image has error , Pixel         360 is wrong!
+#                The output data is d7, but the expected data is d9 
+# WRONG! Result image has error , Pixel         361 is wrong!
+#                The output data is c1, but the expected data is d2 
+# WRONG! Result image has error , Pixel         363 is wrong!
+#                The output data is 6f, but the expected data is 6e 
+# WRONG! Result image has error , Pixel         364 is wrong!
+#                The output data is 72, but the expected data is 6f 
+# WRONG! Result image has error , Pixel         365 is wrong!
+#                The output data is 76, but the expected data is 75 
+# WRONG! Result image has error , Pixel         367 is wrong!
+#                The output data is 79, but the expected data is 78 
+# WRONG! Result image has error , Pixel         368 is wrong!
+#                The output data is 79, but the expected data is 78 
+# WRONG! Result image has error , Pixel         372 is wrong!
+#                The output data is 7b, but the expected data is 7a 
+# WRONG! Result image has error , Pixel         380 is wrong!
+#                The output data is 7e, but the expected data is 7d 
+# WRONG! Result image has error , Pixel         381 is wrong!
+#                The output data is 75, but the expected data is 6a 
+# WRONG! Result image has error , Pixel         382 is wrong!
+#                The output data is 5d, but the expected data is 36 
+# WRONG! Result image has error , Pixel         385 is wrong!
+#                The output data is 5d, but the expected data is 9d 
+# WRONG! Result image has error , Pixel         386 is wrong!
+#                The output data is 9a, but the expected data is 9c 
+# WRONG! Result image has error , Pixel         388 is wrong!
+#                The output data is 9b, but the expected data is 9c 
+# WRONG! Result image has error , Pixel         392 is wrong!
+#                The output data is 9c, but the expected data is a1 
+# WRONG! Result image has error , Pixel         398 is wrong!
+#                The output data is 8c, but the expected data is 8b 
+# WRONG! Result image has error , Pixel         399 is wrong!
+#                The output data is 76, but the expected data is 74 
+# WRONG! Result image has error , Pixel         403 is wrong!
+#                The output data is 66, but the expected data is 65 
+# WRONG! Result image has error , Pixel         405 is wrong!
+#                The output data is 6b, but the expected data is 6a 
+# WRONG! Result image has error , Pixel         408 is wrong!
+#                The output data is 68, but the expected data is 67 
+# WRONG! Result image has error , Pixel         409 is wrong!
+#                The output data is 6c, but the expected data is 69 
+# WRONG! Result image has error , Pixel         411 is wrong!
+#                The output data is 75, but the expected data is 74 
+# WRONG! Result image has error , Pixel         412 is wrong!
+#                The output data is 7a, but the expected data is 76 
+# WRONG! Result image has error , Pixel         414 is wrong!
+#                The output data is 7f, but the expected data is 7d 
+# WRONG! Result image has error , Pixel         416 is wrong!
+#                The output data is 82, but the expected data is 81 
+# WRONG! Result image has error , Pixel         425 is wrong!
+#                The output data is 85, but the expected data is 83 
+# WRONG! Result image has error , Pixel         442 is wrong!
+#                The output data is 82, but the expected data is 81 
+# WRONG! Result image has error , Pixel         455 is wrong!
+#                The output data is 80, but the expected data is 7f 
+# WRONG! Result image has error , Pixel         457 is wrong!
+#                The output data is 83, but the expected data is 81 
+# WRONG! Result image has error , Pixel         458 is wrong!
+#                The output data is 83, but the expected data is 81 
+# WRONG! Result image has error , Pixel         462 is wrong!
+#                The output data is 76, but the expected data is 75 
+# WRONG! Result image has error , Pixel         465 is wrong!
+#                The output data is 75, but the expected data is 70 
+# WRONG! Result image has error , Pixel         466 is wrong!
+#                The output data is 89, but the expected data is 7f 
+# WRONG! Result image has error , Pixel         467 is wrong!
+#                The output data is 95, but the expected data is 91 
+# WRONG! Result image has error , Pixel         468 is wrong!
+#                The output data is 9a, but the expected data is 99 
+# WRONG! Result image has error , Pixel         470 is wrong!
+#                The output data is a0, but the expected data is a1 
+# WRONG! Result image has error , Pixel         471 is wrong!
+#                The output data is 9e, but the expected data is a0 
+# WRONG! Result image has error , Pixel         473 is wrong!
+#                The output data is 9e, but the expected data is a0 
+# WRONG! Result image has error , Pixel         476 is wrong!
+#                The output data is 9c, but the expected data is 9f 
+# WRONG! Result image has error , Pixel         478 is wrong!
+#                The output data is 9a, but the expected data is 9b 
+# WRONG! Result image has error , Pixel         482 is wrong!
+#                The output data is 99, but the expected data is 98 
+# WRONG! Result image has error , Pixel         485 is wrong!
+#                The output data is 9a, but the expected data is 99 
+# WRONG! Result image has error , Pixel         488 is wrong!
+#                The output data is d7, but the expected data is d9 
+# WRONG! Result image has error , Pixel         489 is wrong!
+#                The output data is d6, but the expected data is d9 
+# WRONG! Result image has error , Pixel         490 is wrong!
+#                The output data is a2, but the expected data is c1 
+# WRONG! Result image has error , Pixel         492 is wrong!
+#                The output data is 6f, but the expected data is 6e 
+# WRONG! Result image has error , Pixel         493 is wrong!
+#                The output data is 73, but the expected data is 72 
+# WRONG! Result image has error , Pixel         494 is wrong!
+#                The output data is 77, but the expected data is 76 
+# WRONG! Result image has error , Pixel         507 is wrong!
+#                The output data is 82, but the expected data is 80 
+# WRONG! Result image has error , Pixel         508 is wrong!
+#                The output data is 6a, but the expected data is 68 
+# WRONG! Result image has error , Pixel         509 is wrong!
+#                The output data is 36, but the expected data is 35 
+# WRONG! Result image has error , Pixel         510 is wrong!
+#                The output data is 32, but the expected data is 2e 
+# WRONG! Result image has error , Pixel         513 is wrong!
+#                The output data is 32, but the expected data is 9c 
+# WRONG! Result image has error , Pixel         515 is wrong!
+#                The output data is 9c, but the expected data is 9d 
+# WRONG! Result image has error , Pixel         516 is wrong!
+#                The output data is 9b, but the expected data is 9c 
+# WRONG! Result image has error , Pixel         519 is wrong!
+#                The output data is 9b, but the expected data is 9c 
+# WRONG! Result image has error , Pixel         520 is wrong!
+#                The output data is a1, but the expected data is a3 
+# WRONG! Result image has error , Pixel         524 is wrong!
+#                The output data is a2, but the expected data is a3 
+# WRONG! Result image has error , Pixel         525 is wrong!
+#                The output data is 9b, but the expected data is 9d 
+# WRONG! Result image has error , Pixel         528 is wrong!
+#                The output data is 5f, but the expected data is 5e 
+# WRONG! Result image has error , Pixel         530 is wrong!
+#                The output data is 64, but the expected data is 63 
+# WRONG! Result image has error , Pixel         533 is wrong!
+#                The output data is 6b, but the expected data is 6a 
+# WRONG! Result image has error , Pixel         535 is wrong!
+#                The output data is 6a, but the expected data is 68 
+# WRONG! Result image has error , Pixel         537 is wrong!
+#                The output data is 69, but the expected data is 68 
+# WRONG! Result image has error , Pixel         541 is wrong!
+#                The output data is 7c, but the expected data is 7b 
+# WRONG! Result image has error , Pixel         543 is wrong!
+#                The output data is 80, but the expected data is 7f 
+# WRONG! Result image has error , Pixel         554 is wrong!
+#                The output data is 85, but the expected data is 83 
+# WRONG! Result image has error , Pixel         562 is wrong!
+#                The output data is 84, but the expected data is 83 
+# WRONG! Result image has error , Pixel         565 is wrong!
+#                The output data is 83, but the expected data is 82 
+# WRONG! Result image has error , Pixel         569 is wrong!
+#                The output data is 83, but the expected data is 81 
+# WRONG! Result image has error , Pixel         578 is wrong!
+#                The output data is 83, but the expected data is 82 
+# WRONG! Result image has error , Pixel         583 is wrong!
+#                The output data is 80, but the expected data is 7f 
+# WRONG! Result image has error , Pixel         588 is wrong!
+#                The output data is 7e, but the expected data is 7c 
+# WRONG! Result image has error , Pixel         589 is wrong!
+#                The output data is 7c, but the expected data is 7b 
+# WRONG! Result image has error , Pixel         591 is wrong!
+#                The output data is 73, but the expected data is 72 
+# WRONG! Result image has error , Pixel         593 is wrong!
+#                The output data is 70, but the expected data is 6e 
+# WRONG! Result image has error , Pixel         594 is wrong!
+#                The output data is 7f, but the expected data is 76 
+# WRONG! Result image has error , Pixel         595 is wrong!
+#                The output data is 91, but the expected data is 8e 
+# WRONG! Result image has error , Pixel         596 is wrong!
+#                The output data is 99, but the expected data is 97 
+# WRONG! Result image has error , Pixel         598 is wrong!
+#                The output data is a0, but the expected data is a1 
+# WRONG! Result image has error , Pixel         599 is wrong!
+#                The output data is a0, but the expected data is a1 
+# WRONG! Result image has error , Pixel         600 is wrong!
+#                The output data is a0, but the expected data is a1 
+# WRONG! Result image has error , Pixel         603 is wrong!
+#                The output data is a1, but the expected data is a2 
+# WRONG! Result image has error , Pixel         604 is wrong!
+#                The output data is 9f, but the expected data is a0 
+# WRONG! Result image has error , Pixel         609 is wrong!
+#                The output data is 9a, but the expected data is 98 
+# WRONG! Result image has error , Pixel         612 is wrong!
+#                The output data is 98, but the expected data is 97 
+# WRONG! Result image has error , Pixel         613 is wrong!
+#                The output data is 97, but the expected data is 96 
+# WRONG! Result image has error , Pixel         618 is wrong!
+#                The output data is cc, but the expected data is d6 
+# WRONG! Result image has error , Pixel         619 is wrong!
+#                The output data is 9b, but the expected data is a2 
+# WRONG! Result image has error , Pixel         621 is wrong!
+#                The output data is 73, but the expected data is 72 
+# WRONG! Result image has error , Pixel         622 is wrong!
+#                The output data is 75, but the expected data is 73 
+# WRONG! Result image has error , Pixel         628 is wrong!
+#                The output data is 7d, but the expected data is 7b 
+# WRONG! Result image has error , Pixel         634 is wrong!
+#                The output data is 85, but the expected data is 80 
+# WRONG! Result image has error , Pixel         635 is wrong!
+#                The output data is 68, but the expected data is 60 
+# WRONG! Result image has error , Pixel         636 is wrong!
+#                The output data is 36, but the expected data is 35 
+# WRONG! Result image has error , Pixel         638 is wrong!
+#                The output data is 32, but the expected data is 2e 
+# WRONG! Result image has error , Pixel         641 is wrong!
+#                The output data is 2e, but the expected data is 9b 
+# WRONG! Result image has error , Pixel         642 is wrong!
+#                The output data is 9a, but the expected data is 9d 
+# WRONG! Result image has error , Pixel         643 is wrong!
+#                The output data is 9d, but the expected data is 9e 
+# WRONG! Result image has error , Pixel         644 is wrong!
+#                The output data is 9c, but the expected data is 9d 
+# WRONG! Result image has error , Pixel         645 is wrong!
+#                The output data is 9b, but the expected data is 9c 
+# WRONG! Result image has error , Pixel         646 is wrong!
+#                The output data is 9b, but the expected data is 9c 
+# WRONG! Result image has error , Pixel         647 is wrong!
+#                The output data is a0, but the expected data is a1 
+# WRONG! Result image has error , Pixel         648 is wrong!
+#                The output data is a5, but the expected data is a6 
+# WRONG! Result image has error , Pixel         652 is wrong!
+#                The output data is 9e, but the expected data is a2 
+# WRONG! Result image has error , Pixel         654 is wrong!
+#                The output data is 8a, but the expected data is 8c 
+#  Result image be found        6980 error !
+#  
+# -----------------------------------------------------
+# 
+# --------------------- S U M M A R Y -----------------
+# 
+# FAIL!!!  There are        6980 errors! in result image 
+# 
+# -----------------------------------------------------
+# 
+# ** Note: $finish    : D:/109-2_NCKU/HW4_v3/testfixture.v(123)
+#    Time: 5570660 ns  Iteration: 0  Instance: /testfixture
+# 1
+# Break in Module testfixture at D:/109-2_NCKU/HW4_v3/testfixture.v line 123
+# Causality operation skipped due to absense of debug database file
+# Compile of MFE.v was successful.
+# Compile of testfixture.v was successful.
+# 2 compiles, 0 failed with no errors. 
+restart
+# Refreshing D:/109-2_NCKU/HW4_v3/work.testfixture
+# Loading work.testfixture
+# Refreshing D:/109-2_NCKU/HW4_v3/work.MFE
+# Loading work.MFE
+run -all
+# -----------------------------------------------------
+# 
+# START!!! Simulation Start .....
+# 
+# -----------------------------------------------------
+# 
+# WRONG! Result image has error , Pixel         257 is wrong!
+#                The output data is 88, but the expected data is 9e 
+# WRONG! Result image has error , Pixel         258 is wrong!
+#                The output data is 9b, but the expected data is 9c 
+# WRONG! Result image has error , Pixel         385 is wrong!
+#                The output data is 35, but the expected data is 9d 
+# WRONG! Result image has error , Pixel         386 is wrong!
+#                The output data is 9b, but the expected data is 9c 
+# WRONG! Result image has error , Pixel         513 is wrong!
+#                The output data is 2d, but the expected data is 9c 
+# WRONG! Result image has error , Pixel         514 is wrong!
+#                The output data is 9a, but the expected data is 9b 
+# WRONG! Result image has error , Pixel         641 is wrong!
+#                The output data is 32, but the expected data is 9b 
+# WRONG! Result image has error , Pixel         769 is wrong!
+#                The output data is 35, but the expected data is 9c 
+# WRONG! Result image has error , Pixel         897 is wrong!
+#                The output data is 36, but the expected data is 9e 
+# WRONG! Result image has error , Pixel        1025 is wrong!
+#                The output data is 36, but the expected data is 9e 
+# WRONG! Result image has error , Pixel        1153 is wrong!
+#                The output data is 31, but the expected data is 9e 
+# WRONG! Result image has error , Pixel        1281 is wrong!
+#                The output data is 2f, but the expected data is 9f 
+# WRONG! Result image has error , Pixel        1409 is wrong!
+#                The output data is 2e, but the expected data is a1 
+# WRONG! Result image has error , Pixel        1410 is wrong!
+#                The output data is a0, but the expected data is a1 
+# WRONG! Result image has error , Pixel        1537 is wrong!
+#                The output data is 2e, but the expected data is a1 
+# WRONG! Result image has error , Pixel        1538 is wrong!
+#                The output data is a0, but the expected data is a1 
+# WRONG! Result image has error , Pixel        1665 is wrong!
+#                The output data is 2f, but the expected data is a1 
+# WRONG! Result image has error , Pixel        1666 is wrong!
+#                The output data is a2, but the expected data is a4 
+# WRONG! Result image has error , Pixel        1793 is wrong!
+#                The output data is 2f, but the expected data is a1 
+# WRONG! Result image has error , Pixel        1794 is wrong!
+#                The output data is 9c, but the expected data is a5 
+# WRONG! Result image has error , Pixel        1921 is wrong!
+#                The output data is 30, but the expected data is a8 
+# WRONG! Result image has error , Pixel        1922 is wrong!
+#                The output data is 9c, but the expected data is a5 
+# WRONG! Result image has error , Pixel        2049 is wrong!
+#                The output data is 37, but the expected data is a8 
+# WRONG! Result image has error , Pixel        2050 is wrong!
+#                The output data is 95, but the expected data is a1 
+# WRONG! Result image has error , Pixel        2177 is wrong!
+#                The output data is 37, but the expected data is a8 
+# WRONG! Result image has error , Pixel        2178 is wrong!
+#                The output data is 88, but the expected data is 9d 
+# WRONG! Result image has error , Pixel        2305 is wrong!
+#                The output data is 2f, but the expected data is a3 
+# WRONG! Result image has error , Pixel        2306 is wrong!
+#                The output data is 78, but the expected data is 93 
+# WRONG! Result image has error , Pixel        2433 is wrong!
+#                The output data is 59, but the expected data is 9e 
+# WRONG! Result image has error , Pixel        2434 is wrong!
+#                The output data is 70, but the expected data is 87 
+# WRONG! Result image has error , Pixel        2561 is wrong!
+#                The output data is 70, but the expected data is 91 
+# WRONG! Result image has error , Pixel        2562 is wrong!
+#                The output data is 5d, but the expected data is 70 
+# WRONG! Result image has error , Pixel        2689 is wrong!
+#                The output data is 8d, but the expected data is 7f 
+# WRONG! Result image has error , Pixel        2690 is wrong!
+#                The output data is 5a, but the expected data is 57 
+# WRONG! Result image has error , Pixel        2817 is wrong!
+#                The output data is 8c, but the expected data is 57 
+# WRONG! Result image has error , Pixel        2818 is wrong!
+#                The output data is 5a, but the expected data is 57 
+# WRONG! Result image has error , Pixel        2945 is wrong!
+#                The output data is 86, but the expected data is 57 
+# WRONG! Result image has error , Pixel        2946 is wrong!
+#                The output data is 5d, but the expected data is 57 
+# WRONG! Result image has error , Pixel        3073 is wrong!
+#                The output data is 86, but the expected data is 5a 
+# WRONG! Result image has error , Pixel        3074 is wrong!
+#                The output data is 5d, but the expected data is 5a 
+# WRONG! Result image has error , Pixel        3201 is wrong!
+#                The output data is 9d, but the expected data is 5a 
+# WRONG! Result image has error , Pixel        3202 is wrong!
+#                The output data is 5d, but the expected data is 5c 
+# WRONG! Result image has error , Pixel        3329 is wrong!
+#                The output data is a3, but the expected data is 5a 
+# WRONG! Result image has error , Pixel        3330 is wrong!
+#                The output data is 5d, but the expected data is 5c 
+# WRONG! Result image has error , Pixel        3457 is wrong!
+#                The output data is a1, but the expected data is 5a 
+# WRONG! Result image has error , Pixel        3458 is wrong!
+#                The output data is 5d, but the expected data is 5c 
+# WRONG! Result image has error , Pixel        3585 is wrong!
+#                The output data is 9e, but the expected data is 5a 
+# WRONG! Result image has error , Pixel        3586 is wrong!
+#                The output data is 5c, but the expected data is 5a 
+# WRONG! Result image has error , Pixel        3713 is wrong!
+#                The output data is 9e, but the expected data is 59 
+# WRONG! Result image has error , Pixel        3714 is wrong!
+#                The output data is 5c, but the expected data is 5a 
+# WRONG! Result image has error , Pixel        3841 is wrong!
+#                The output data is 9e, but the expected data is 5b 
+# WRONG! Result image has error , Pixel        3842 is wrong!
+#                The output data is 5e, but the expected data is 5b 
+# WRONG! Result image has error , Pixel        3969 is wrong!
+#                The output data is 9d, but the expected data is 5c 
+# WRONG! Result image has error , Pixel        3970 is wrong!
+#                The output data is 62, but the expected data is 5e 
+# WRONG! Result image has error , Pixel        4097 is wrong!
+#                The output data is 9c, but the expected data is 62 
+# WRONG! Result image has error , Pixel        4098 is wrong!
+#                The output data is 63, but the expected data is 62 
+# WRONG! Result image has error , Pixel        4225 is wrong!
+#                The output data is 9a, but the expected data is 63 
+# WRONG! Result image has error , Pixel        4226 is wrong!
+#                The output data is 63, but the expected data is 62 
+# WRONG! Result image has error , Pixel        4353 is wrong!
+#                The output data is 9a, but the expected data is 63 
+# WRONG! Result image has error , Pixel        4481 is wrong!
+#                The output data is 99, but the expected data is 64 
+# WRONG! Result image has error , Pixel        4609 is wrong!
+#                The output data is 99, but the expected data is 64 
+# WRONG! Result image has error , Pixel        4737 is wrong!
+#                The output data is 99, but the expected data is 64 
+# WRONG! Result image has error , Pixel        4738 is wrong!
+#                The output data is 65, but the expected data is 63 
+# WRONG! Result image has error , Pixel        4865 is wrong!
+#                The output data is 9c, but the expected data is 61 
+# WRONG! Result image has error , Pixel        4866 is wrong!
+#                The output data is 63, but the expected data is 61 
+# WRONG! Result image has error , Pixel        4993 is wrong!
+#                The output data is 9c, but the expected data is 61 
+# WRONG! Result image has error , Pixel        5121 is wrong!
+#                The output data is 9c, but the expected data is 5e 
+# WRONG! Result image has error , Pixel        5122 is wrong!
+#                The output data is 60, but the expected data is 5e 
+# WRONG! Result image has error , Pixel        5249 is wrong!
+#                The output data is 9c, but the expected data is 5f 
+# WRONG! Result image has error , Pixel        5250 is wrong!
+#                The output data is 62, but the expected data is 5f 
+# WRONG! Result image has error , Pixel        5377 is wrong!
+#                The output data is 9b, but the expected data is 60 
+# WRONG! Result image has error , Pixel        5505 is wrong!
+#                The output data is 9a, but the expected data is 62 
+# WRONG! Result image has error , Pixel        5506 is wrong!
+#                The output data is 63, but the expected data is 62 
+# WRONG! Result image has error , Pixel        5633 is wrong!
+#                The output data is 9a, but the expected data is 63 
+# WRONG! Result image has error , Pixel        5634 is wrong!
+#                The output data is 64, but the expected data is 63 
+# WRONG! Result image has error , Pixel        5761 is wrong!
+#                The output data is 9a, but the expected data is 64 
+# WRONG! Result image has error , Pixel        5762 is wrong!
+#                The output data is 65, but the expected data is 64 
+# WRONG! Result image has error , Pixel        5889 is wrong!
+#                The output data is 99, but the expected data is 65 
+# WRONG! Result image has error , Pixel        6017 is wrong!
+#                The output data is 97, but the expected data is 68 
+# WRONG! Result image has error , Pixel        6018 is wrong!
+#                The output data is 67, but the expected data is 65 
+# WRONG! Result image has error , Pixel        6145 is wrong!
+#                The output data is 97, but the expected data is 69 
+# WRONG! Result image has error , Pixel        6273 is wrong!
+#                The output data is 97, but the expected data is 6a 
+# WRONG! Result image has error , Pixel        6401 is wrong!
+#                The output data is 98, but the expected data is 6a 
+# WRONG! Result image has error , Pixel        6529 is wrong!
+#                The output data is 97, but the expected data is 6b 
+# WRONG! Result image has error , Pixel        6657 is wrong!
+#                The output data is 97, but the expected data is 6a 
+# WRONG! Result image has error , Pixel        6785 is wrong!
+#                The output data is 97, but the expected data is 69 
+# WRONG! Result image has error , Pixel        6913 is wrong!
+#                The output data is 97, but the expected data is 68 
+# WRONG! Result image has error , Pixel        6914 is wrong!
+#                The output data is 68, but the expected data is 65 
+# WRONG! Result image has error , Pixel        7041 is wrong!
+#                The output data is 97, but the expected data is 68 
+# WRONG! Result image has error , Pixel        7042 is wrong!
+#                The output data is 68, but the expected data is 67 
+# WRONG! Result image has error , Pixel        7169 is wrong!
+#                The output data is 97, but the expected data is 68 
+# WRONG! Result image has error , Pixel        7170 is wrong!
+#                The output data is 67, but the expected data is 66 
+# WRONG! Result image has error , Pixel        7297 is wrong!
+#                The output data is 95, but the expected data is 68 
+# WRONG! Result image has error , Pixel        7425 is wrong!
+#                The output data is 95, but the expected data is 66 
+# WRONG! Result image has error , Pixel        7553 is wrong!
+#                The output data is 95, but the expected data is 66 
+# WRONG! Result image has error , Pixel        7681 is wrong!
+#                The output data is 94, but the expected data is 65 
+# WRONG! Result image has error , Pixel        7809 is wrong!
+#                The output data is 8a, but the expected data is 65 
+# WRONG! Result image has error , Pixel        7937 is wrong!
+#                The output data is 86, but the expected data is 65 
+# WRONG! Result image has error , Pixel        7938 is wrong!
+#                The output data is 68, but the expected data is 65 
+# WRONG! Result image has error , Pixel        8065 is wrong!
+#                The output data is 85, but the expected data is 67 
+# WRONG! Result image has error , Pixel        8066 is wrong!
+#                The output data is 68, but the expected data is 65 
+# WRONG! Result image has error , Pixel        8193 is wrong!
+#                The output data is 85, but the expected data is 64 
+# WRONG! Result image has error , Pixel        8194 is wrong!
+#                The output data is 68, but the expected data is 63 
+# WRONG! Result image has error , Pixel        8321 is wrong!
+#                The output data is 85, but the expected data is 60 
+# WRONG! Result image has error , Pixel        8322 is wrong!
+#                The output data is 62, but the expected data is 5f 
+# WRONG! Result image has error , Pixel        8449 is wrong!
+#                The output data is 83, but the expected data is 5f 
+# WRONG! Result image has error , Pixel        8577 is wrong!
+#                The output data is 83, but the expected data is 62 
+# WRONG! Result image has error , Pixel        8705 is wrong!
+#                The output data is 83, but the expected data is 63 
+# WRONG! Result image has error , Pixel        8706 is wrong!
+#                The output data is 63, but the expected data is 62 
+# WRONG! Result image has error , Pixel        8833 is wrong!
+#                The output data is a2, but the expected data is 65 
+# WRONG! Result image has error , Pixel        8961 is wrong!
+#                The output data is b8, but the expected data is 64 
+# WRONG! Result image has error , Pixel        8962 is wrong!
+#                The output data is 61, but the expected data is 5c 
+# WRONG! Result image has error , Pixel        9089 is wrong!
+#                The output data is bc, but the expected data is 5b 
+# WRONG! Result image has error , Pixel        9217 is wrong!
+#                The output data is bc, but the expected data is 5a 
+# WRONG! Result image has error , Pixel        9345 is wrong!
+#                The output data is be, but the expected data is 55 
+# WRONG! Result image has error , Pixel        9473 is wrong!
+#                The output data is c0, but the expected data is 4f 
+# WRONG! Result image has error , Pixel        9601 is wrong!
+#                The output data is c8, but the expected data is 4d 
+# WRONG! Result image has error , Pixel        9602 is wrong!
+#                The output data is 4d, but the expected data is 4c 
+# WRONG! Result image has error , Pixel        9729 is wrong!
+#                The output data is c8, but the expected data is 4d 
+# WRONG! Result image has error , Pixel        9730 is wrong!
+#                The output data is 4c, but the expected data is 4b 
+# WRONG! Result image has error , Pixel        9857 is wrong!
+#                The output data is c8, but the expected data is 4d 
+# WRONG! Result image has error , Pixel        9858 is wrong!
+#                The output data is 4c, but the expected data is 4b 
+# WRONG! Result image has error , Pixel        9985 is wrong!
+#                The output data is c8, but the expected data is 4f 
+# WRONG! Result image has error , Pixel        9986 is wrong!
+#                The output data is 4f, but the expected data is 4d 
+# WRONG! Result image has error , Pixel       10113 is wrong!
+#                The output data is cb, but the expected data is 50 
+# WRONG! Result image has error , Pixel       10241 is wrong!
+#                The output data is 4f, but the expected data is 50 
+# WRONG! Result image has error , Pixel       10370 is wrong!
+#                The output data is 4e, but the expected data is 4d 
+# WRONG! Result image has error , Pixel       10497 is wrong!
+#                The output data is ce, but the expected data is 4f 
+# WRONG! Result image has error , Pixel       10498 is wrong!
+#                The output data is 4e, but the expected data is 4c 
+# WRONG! Result image has error , Pixel       10625 is wrong!
+#                The output data is ce, but the expected data is 4c 
+# WRONG! Result image has error , Pixel       10626 is wrong!
+#                The output data is 4c, but the expected data is 4b 
+# WRONG! Result image has error , Pixel       10753 is wrong!
+#                The output data is d1, but the expected data is 4a 
+# WRONG! Result image has error , Pixel       10754 is wrong!
+#                The output data is 4a, but the expected data is 49 
+# WRONG! Result image has error , Pixel       10881 is wrong!
+#                The output data is d3, but the expected data is 46 
+# WRONG! Result image has error , Pixel       10882 is wrong!
+#                The output data is 47, but the expected data is 46 
+# WRONG! Result image has error , Pixel       11009 is wrong!
+#                The output data is d3, but the expected data is 43 
+# WRONG! Result image has error , Pixel       11010 is wrong!
+#                The output data is 46, but the expected data is 45 
+# WRONG! Result image has error , Pixel       11137 is wrong!
+#                The output data is d3, but the expected data is 3c 
+# WRONG! Result image has error , Pixel       11138 is wrong!
+#                The output data is 45, but the expected data is 3f 
+# WRONG! Result image has error , Pixel       11265 is wrong!
+#                The output data is d3, but the expected data is 3b 
+# WRONG! Result image has error , Pixel       11266 is wrong!
+#                The output data is 42, but the expected data is 3d 
+# WRONG! Result image has error , Pixel       11393 is wrong!
+#                The output data is d2, but the expected data is 38 
+# WRONG! Result image has error , Pixel       11394 is wrong!
+#                The output data is 3d, but the expected data is 3b 
+# WRONG! Result image has error , Pixel       11521 is wrong!
+#                The output data is cc, but the expected data is 38 
+# WRONG! Result image has error , Pixel       11522 is wrong!
+#                The output data is 3d, but the expected data is 38 
+# WRONG! Result image has error , Pixel       11649 is wrong!
+#                The output data is cc, but the expected data is 37 
+# WRONG! Result image has error , Pixel       11650 is wrong!
+#                The output data is 38, but the expected data is 37 
+# WRONG! Result image has error , Pixel       11777 is wrong!
+#                The output data is cd, but the expected data is 34 
+# WRONG! Result image has error , Pixel       11905 is wrong!
+#                The output data is cc, but the expected data is 32 
+# WRONG! Result image has error , Pixel       11906 is wrong!
+#                The output data is 33, but the expected data is 32 
+# WRONG! Result image has error , Pixel       12033 is wrong!
+#                The output data is c5, but the expected data is 30 
+# WRONG! Result image has error , Pixel       12161 is wrong!
+#                The output data is 60, but the expected data is 30 
+# WRONG! Result image has error , Pixel       12162 is wrong!
+#                The output data is 32, but the expected data is 30 
+# WRONG! Result image has error , Pixel       12289 is wrong!
+#                The output data is 2d, but the expected data is 30 
+# WRONG! Result image has error , Pixel       12290 is wrong!
+#                The output data is 2d, but the expected data is 2e 
+# WRONG! Result image has error , Pixel       12417 is wrong!
+#                The output data is 2d, but the expected data is 32 
+# WRONG! Result image has error , Pixel       12418 is wrong!
+#                The output data is 2d, but the expected data is 30 
+# WRONG! Result image has error , Pixel       12545 is wrong!
+#                The output data is 32, but the expected data is 3e 
+# WRONG! Result image has error , Pixel       12546 is wrong!
+#                The output data is 32, but the expected data is 34 
+# WRONG! Result image has error , Pixel       12673 is wrong!
+#                The output data is 4e, but the expected data is 58 
+# WRONG! Result image has error , Pixel       12801 is wrong!
+#                The output data is 55, but the expected data is 82 
+# WRONG! Result image has error , Pixel       12802 is wrong!
+#                The output data is 56, but the expected data is 66 
+# WRONG! Result image has error , Pixel       12929 is wrong!
+#                The output data is 56, but the expected data is 85 
+# WRONG! Result image has error , Pixel       12930 is wrong!
+#                The output data is 58, but the expected data is 82 
+# WRONG! Result image has error , Pixel       13057 is wrong!
+#                The output data is 58, but the expected data is 87 
+# WRONG! Result image has error , Pixel       13058 is wrong!
+#                The output data is 72, but the expected data is 8d 
+# WRONG! Result image has error , Pixel       13185 is wrong!
+#                The output data is 5b, but the expected data is 80 
+# WRONG! Result image has error , Pixel       13186 is wrong!
+#                The output data is 8d, but the expected data is 8e 
+# WRONG! Result image has error , Pixel       13313 is wrong!
+#                The output data is 63, but the expected data is 74 
+# WRONG! Result image has error , Pixel       13441 is wrong!
+#                The output data is 69, but the expected data is 52 
+# WRONG! Result image has error , Pixel       13569 is wrong!
+#                The output data is 69, but the expected data is 38 
+# WRONG! Result image has error , Pixel       13697 is wrong!
+#                The output data is 69, but the expected data is 37 
+# WRONG! Result image has error , Pixel       13825 is wrong!
+#                The output data is 67, but the expected data is 29 
+# WRONG! Result image has error , Pixel       13953 is wrong!
+#                The output data is 65, but the expected data is 29 
+# WRONG! Result image has error , Pixel       14081 is wrong!
+#                The output data is 62, but the expected data is 29 
+# WRONG! Result image has error , Pixel       14209 is wrong!
+#                The output data is 58, but the expected data is 27 
+# WRONG! Result image has error , Pixel       14337 is wrong!
+#                The output data is 58, but the expected data is 27 
+# WRONG! Result image has error , Pixel       14338 is wrong!
+#                The output data is 5f, but the expected data is 58 
+# WRONG! Result image has error , Pixel       14465 is wrong!
+#                The output data is 5b, but the expected data is 27 
+# WRONG! Result image has error , Pixel       14466 is wrong!
+#                The output data is 5e, but the expected data is 49 
+# WRONG! Result image has error , Pixel       14593 is wrong!
+#                The output data is 4f, but the expected data is 27 
+# WRONG! Result image has error , Pixel       14594 is wrong!
+#                The output data is 5e, but the expected data is 3f 
+# WRONG! Result image has error , Pixel       14721 is wrong!
+#                The output data is 40, but the expected data is 27 
+# WRONG! Result image has error , Pixel       14722 is wrong!
+#                The output data is 4f, but the expected data is 3e 
+# WRONG! Result image has error , Pixel       14849 is wrong!
+#                The output data is 3f, but the expected data is 26 
+# WRONG! Result image has error , Pixel       14850 is wrong!
+#                The output data is 40, but the expected data is 31 
+# WRONG! Result image has error , Pixel       14977 is wrong!
+#                The output data is 37, but the expected data is 2d 
+# WRONG! Result image has error , Pixel       15105 is wrong!
+#                The output data is 37, but the expected data is 3e 
+# WRONG! Result image has error , Pixel       15106 is wrong!
+#                The output data is 3e, but the expected data is 54 
+# WRONG! Result image has error , Pixel       15233 is wrong!
+#                The output data is 3e, but the expected data is 59 
+# WRONG! Result image has error , Pixel       15234 is wrong!
+#                The output data is 59, but the expected data is 5e 
+# WRONG! Result image has error , Pixel       15361 is wrong!
+#                The output data is 42, but the expected data is 5d 
+# WRONG! Result image has error , Pixel       15362 is wrong!
+#                The output data is 6b, but the expected data is 6c 
+# WRONG! Result image has error , Pixel       15489 is wrong!
+#                The output data is 44, but the expected data is 5f 
+# WRONG! Result image has error , Pixel       15490 is wrong!
+#                The output data is 6b, but the expected data is 6c 
+# WRONG! Result image has error , Pixel       15617 is wrong!
+#                The output data is 44, but the expected data is 59 
+# WRONG! Result image has error , Pixel       15618 is wrong!
+#                The output data is 63, but the expected data is 6c 
+# WRONG! Result image has error , Pixel       15745 is wrong!
+#                The output data is 3f, but the expected data is 46 
+# WRONG! Result image has error , Pixel       15746 is wrong!
+#                The output data is 59, but the expected data is 5f 
+#  Result image be found         201 error !
+#  
+# -----------------------------------------------------
+# 
+# --------------------- S U M M A R Y -----------------
+# 
+# FAIL!!!  There are         201 errors! in result image 
+# 
+# -----------------------------------------------------
+# 
+# ** Note: $finish    : D:/109-2_NCKU/HW4_v3/testfixture.v(123)
+#    Time: 5570660 ns  Iteration: 0  Instance: /testfixture
+# 1
+# Break in Module testfixture at D:/109-2_NCKU/HW4_v3/testfixture.v line 123
+# Compile of MFE.v was successful.
+# Compile of testfixture.v was successful.
+# 2 compiles, 0 failed with no errors. 
+restart
+# Refreshing D:/109-2_NCKU/HW4_v3/work.testfixture
+# Loading work.testfixture
+# Refreshing D:/109-2_NCKU/HW4_v3/work.MFE
+# Loading work.MFE
+run -all
+# -----------------------------------------------------
+# 
+# START!!! Simulation Start .....
+# 
+# -----------------------------------------------------
+# 
+# WRONG! Result image has error , Pixel         257 is wrong!
+#                The output data is 88, but the expected data is 9e 
+# WRONG! Result image has error , Pixel         258 is wrong!
+#                The output data is 9b, but the expected data is 9c 
+# WRONG! Result image has error , Pixel         385 is wrong!
+#                The output data is 35, but the expected data is 9d 
+# WRONG! Result image has error , Pixel         386 is wrong!
+#                The output data is 9b, but the expected data is 9c 
+# WRONG! Result image has error , Pixel         513 is wrong!
+#                The output data is 2d, but the expected data is 9c 
+# WRONG! Result image has error , Pixel         514 is wrong!
+#                The output data is 9a, but the expected data is 9b 
+# WRONG! Result image has error , Pixel         641 is wrong!
+#                The output data is 32, but the expected data is 9b 
+# WRONG! Result image has error , Pixel         769 is wrong!
+#                The output data is 35, but the expected data is 9c 
+# WRONG! Result image has error , Pixel         897 is wrong!
+#                The output data is 36, but the expected data is 9e 
+# WRONG! Result image has error , Pixel        1025 is wrong!
+#                The output data is 36, but the expected data is 9e 
+# WRONG! Result image has error , Pixel        1153 is wrong!
+#                The output data is 31, but the expected data is 9e 
+# WRONG! Result image has error , Pixel        1281 is wrong!
+#                The output data is 2f, but the expected data is 9f 
+# WRONG! Result image has error , Pixel        1409 is wrong!
+#                The output data is 2e, but the expected data is a1 
+# WRONG! Result image has error , Pixel        1410 is wrong!
+#                The output data is a0, but the expected data is a1 
+# WRONG! Result image has error , Pixel        1537 is wrong!
+#                The output data is 2e, but the expected data is a1 
+# WRONG! Result image has error , Pixel        1538 is wrong!
+#                The output data is a0, but the expected data is a1 
+# WRONG! Result image has error , Pixel        1665 is wrong!
+#                The output data is 2f, but the expected data is a1 
+# WRONG! Result image has error , Pixel        1666 is wrong!
+#                The output data is a2, but the expected data is a4 
+# WRONG! Result image has error , Pixel        1793 is wrong!
+#                The output data is 2f, but the expected data is a1 
+# WRONG! Result image has error , Pixel        1794 is wrong!
+#                The output data is 9c, but the expected data is a5 
+# WRONG! Result image has error , Pixel        1921 is wrong!
+#                The output data is 30, but the expected data is a8 
+# WRONG! Result image has error , Pixel        1922 is wrong!
+#                The output data is 9c, but the expected data is a5 
+# WRONG! Result image has error , Pixel        2049 is wrong!
+#                The output data is 37, but the expected data is a8 
+# WRONG! Result image has error , Pixel        2050 is wrong!
+#                The output data is 95, but the expected data is a1 
+# WRONG! Result image has error , Pixel        2177 is wrong!
+#                The output data is 37, but the expected data is a8 
+# WRONG! Result image has error , Pixel        2178 is wrong!
+#                The output data is 88, but the expected data is 9d 
+# WRONG! Result image has error , Pixel        2305 is wrong!
+#                The output data is 2f, but the expected data is a3 
+# WRONG! Result image has error , Pixel        2306 is wrong!
+#                The output data is 78, but the expected data is 93 
+# WRONG! Result image has error , Pixel        2433 is wrong!
+#                The output data is 59, but the expected data is 9e 
+# WRONG! Result image has error , Pixel        2434 is wrong!
+#                The output data is 70, but the expected data is 87 
+# WRONG! Result image has error , Pixel        2561 is wrong!
+#                The output data is 70, but the expected data is 91 
+# WRONG! Result image has error , Pixel        2562 is wrong!
+#                The output data is 5d, but the expected data is 70 
+# WRONG! Result image has error , Pixel        2689 is wrong!
+#                The output data is 8d, but the expected data is 7f 
+# WRONG! Result image has error , Pixel        2690 is wrong!
+#                The output data is 5a, but the expected data is 57 
+# WRONG! Result image has error , Pixel        2817 is wrong!
+#                The output data is 8c, but the expected data is 57 
+# WRONG! Result image has error , Pixel        2818 is wrong!
+#                The output data is 5a, but the expected data is 57 
+# WRONG! Result image has error , Pixel        2945 is wrong!
+#                The output data is 86, but the expected data is 57 
+# WRONG! Result image has error , Pixel        2946 is wrong!
+#                The output data is 5d, but the expected data is 57 
+# WRONG! Result image has error , Pixel        3073 is wrong!
+#                The output data is 86, but the expected data is 5a 
+# WRONG! Result image has error , Pixel        3074 is wrong!
+#                The output data is 5d, but the expected data is 5a 
+# WRONG! Result image has error , Pixel        3201 is wrong!
+#                The output data is 9d, but the expected data is 5a 
+# WRONG! Result image has error , Pixel        3202 is wrong!
+#                The output data is 5d, but the expected data is 5c 
+# WRONG! Result image has error , Pixel        3329 is wrong!
+#                The output data is a3, but the expected data is 5a 
+# WRONG! Result image has error , Pixel        3330 is wrong!
+#                The output data is 5d, but the expected data is 5c 
+# WRONG! Result image has error , Pixel        3457 is wrong!
+#                The output data is a1, but the expected data is 5a 
+# WRONG! Result image has error , Pixel        3458 is wrong!
+#                The output data is 5d, but the expected data is 5c 
+# WRONG! Result image has error , Pixel        3585 is wrong!
+#                The output data is 9e, but the expected data is 5a 
+# WRONG! Result image has error , Pixel        3586 is wrong!
+#                The output data is 5c, but the expected data is 5a 
+# WRONG! Result image has error , Pixel        3713 is wrong!
+#                The output data is 9e, but the expected data is 59 
+# WRONG! Result image has error , Pixel        3714 is wrong!
+#                The output data is 5c, but the expected data is 5a 
+# WRONG! Result image has error , Pixel        3841 is wrong!
+#                The output data is 9e, but the expected data is 5b 
+# WRONG! Result image has error , Pixel        3842 is wrong!
+#                The output data is 5e, but the expected data is 5b 
+# WRONG! Result image has error , Pixel        3969 is wrong!
+#                The output data is 9d, but the expected data is 5c 
+# WRONG! Result image has error , Pixel        3970 is wrong!
+#                The output data is 62, but the expected data is 5e 
+# WRONG! Result image has error , Pixel        4097 is wrong!
+#                The output data is 9c, but the expected data is 62 
+# WRONG! Result image has error , Pixel        4098 is wrong!
+#                The output data is 63, but the expected data is 62 
+# WRONG! Result image has error , Pixel        4225 is wrong!
+#                The output data is 9a, but the expected data is 63 
+# WRONG! Result image has error , Pixel        4226 is wrong!
+#                The output data is 63, but the expected data is 62 
+# WRONG! Result image has error , Pixel        4353 is wrong!
+#                The output data is 9a, but the expected data is 63 
+# WRONG! Result image has error , Pixel        4481 is wrong!
+#                The output data is 99, but the expected data is 64 
+# WRONG! Result image has error , Pixel        4609 is wrong!
+#                The output data is 99, but the expected data is 64 
+# WRONG! Result image has error , Pixel        4737 is wrong!
+#                The output data is 99, but the expected data is 64 
+# WRONG! Result image has error , Pixel        4738 is wrong!
+#                The output data is 65, but the expected data is 63 
+# WRONG! Result image has error , Pixel        4865 is wrong!
+#                The output data is 9c, but the expected data is 61 
+# WRONG! Result image has error , Pixel        4866 is wrong!
+#                The output data is 63, but the expected data is 61 
+# WRONG! Result image has error , Pixel        4993 is wrong!
+#                The output data is 9c, but the expected data is 61 
+# WRONG! Result image has error , Pixel        5121 is wrong!
+#                The output data is 9c, but the expected data is 5e 
+# WRONG! Result image has error , Pixel        5122 is wrong!
+#                The output data is 60, but the expected data is 5e 
+# WRONG! Result image has error , Pixel        5249 is wrong!
+#                The output data is 9c, but the expected data is 5f 
+# WRONG! Result image has error , Pixel        5250 is wrong!
+#                The output data is 62, but the expected data is 5f 
+# WRONG! Result image has error , Pixel        5377 is wrong!
+#                The output data is 9b, but the expected data is 60 
+# WRONG! Result image has error , Pixel        5505 is wrong!
+#                The output data is 9a, but the expected data is 62 
+# WRONG! Result image has error , Pixel        5506 is wrong!
+#                The output data is 63, but the expected data is 62 
+# WRONG! Result image has error , Pixel        5633 is wrong!
+#                The output data is 9a, but the expected data is 63 
+# WRONG! Result image has error , Pixel        5634 is wrong!
+#                The output data is 64, but the expected data is 63 
+# WRONG! Result image has error , Pixel        5761 is wrong!
+#                The output data is 9a, but the expected data is 64 
+# WRONG! Result image has error , Pixel        5762 is wrong!
+#                The output data is 65, but the expected data is 64 
+# WRONG! Result image has error , Pixel        5889 is wrong!
+#                The output data is 99, but the expected data is 65 
+# WRONG! Result image has error , Pixel        6017 is wrong!
+#                The output data is 97, but the expected data is 68 
+# WRONG! Result image has error , Pixel        6018 is wrong!
+#                The output data is 67, but the expected data is 65 
+# WRONG! Result image has error , Pixel        6145 is wrong!
+#                The output data is 97, but the expected data is 69 
+# WRONG! Result image has error , Pixel        6273 is wrong!
+#                The output data is 97, but the expected data is 6a 
+# WRONG! Result image has error , Pixel        6401 is wrong!
+#                The output data is 98, but the expected data is 6a 
+# WRONG! Result image has error , Pixel        6529 is wrong!
+#                The output data is 97, but the expected data is 6b 
+# WRONG! Result image has error , Pixel        6657 is wrong!
+#                The output data is 97, but the expected data is 6a 
+# WRONG! Result image has error , Pixel        6785 is wrong!
+#                The output data is 97, but the expected data is 69 
+# WRONG! Result image has error , Pixel        6913 is wrong!
+#                The output data is 97, but the expected data is 68 
+# WRONG! Result image has error , Pixel        6914 is wrong!
+#                The output data is 68, but the expected data is 65 
+# WRONG! Result image has error , Pixel        7041 is wrong!
+#                The output data is 97, but the expected data is 68 
+# WRONG! Result image has error , Pixel        7042 is wrong!
+#                The output data is 68, but the expected data is 67 
+# WRONG! Result image has error , Pixel        7169 is wrong!
+#                The output data is 97, but the expected data is 68 
+# WRONG! Result image has error , Pixel        7170 is wrong!
+#                The output data is 67, but the expected data is 66 
+# WRONG! Result image has error , Pixel        7297 is wrong!
+#                The output data is 95, but the expected data is 68 
+# WRONG! Result image has error , Pixel        7425 is wrong!
+#                The output data is 95, but the expected data is 66 
+# WRONG! Result image has error , Pixel        7553 is wrong!
+#                The output data is 95, but the expected data is 66 
+# WRONG! Result image has error , Pixel        7681 is wrong!
+#                The output data is 94, but the expected data is 65 
+# WRONG! Result image has error , Pixel        7809 is wrong!
+#                The output data is 8a, but the expected data is 65 
+# WRONG! Result image has error , Pixel        7937 is wrong!
+#                The output data is 86, but the expected data is 65 
+# WRONG! Result image has error , Pixel        7938 is wrong!
+#                The output data is 68, but the expected data is 65 
+# WRONG! Result image has error , Pixel        8065 is wrong!
+#                The output data is 85, but the expected data is 67 
+# WRONG! Result image has error , Pixel        8066 is wrong!
+#                The output data is 68, but the expected data is 65 
+# WRONG! Result image has error , Pixel        8193 is wrong!
+#                The output data is 85, but the expected data is 64 
+# WRONG! Result image has error , Pixel        8194 is wrong!
+#                The output data is 68, but the expected data is 63 
+# WRONG! Result image has error , Pixel        8321 is wrong!
+#                The output data is 85, but the expected data is 60 
+# WRONG! Result image has error , Pixel        8322 is wrong!
+#                The output data is 62, but the expected data is 5f 
+# WRONG! Result image has error , Pixel        8449 is wrong!
+#                The output data is 83, but the expected data is 5f 
+# WRONG! Result image has error , Pixel        8577 is wrong!
+#                The output data is 83, but the expected data is 62 
+# WRONG! Result image has error , Pixel        8705 is wrong!
+#                The output data is 83, but the expected data is 63 
+# WRONG! Result image has error , Pixel        8706 is wrong!
+#                The output data is 63, but the expected data is 62 
+# WRONG! Result image has error , Pixel        8833 is wrong!
+#                The output data is a2, but the expected data is 65 
+# WRONG! Result image has error , Pixel        8961 is wrong!
+#                The output data is b8, but the expected data is 64 
+# WRONG! Result image has error , Pixel        8962 is wrong!
+#                The output data is 61, but the expected data is 5c 
+# WRONG! Result image has error , Pixel        9089 is wrong!
+#                The output data is bc, but the expected data is 5b 
+# WRONG! Result image has error , Pixel        9217 is wrong!
+#                The output data is bc, but the expected data is 5a 
+# WRONG! Result image has error , Pixel        9345 is wrong!
+#                The output data is be, but the expected data is 55 
+# WRONG! Result image has error , Pixel        9473 is wrong!
+#                The output data is c0, but the expected data is 4f 
+# WRONG! Result image has error , Pixel        9601 is wrong!
+#                The output data is c8, but the expected data is 4d 
+# WRONG! Result image has error , Pixel        9602 is wrong!
+#                The output data is 4d, but the expected data is 4c 
+# WRONG! Result image has error , Pixel        9729 is wrong!
+#                The output data is c8, but the expected data is 4d 
+# WRONG! Result image has error , Pixel        9730 is wrong!
+#                The output data is 4c, but the expected data is 4b 
+# WRONG! Result image has error , Pixel        9857 is wrong!
+#                The output data is c8, but the expected data is 4d 
+# WRONG! Result image has error , Pixel        9858 is wrong!
+#                The output data is 4c, but the expected data is 4b 
+# WRONG! Result image has error , Pixel        9985 is wrong!
+#                The output data is c8, but the expected data is 4f 
+# WRONG! Result image has error , Pixel        9986 is wrong!
+#                The output data is 4f, but the expected data is 4d 
+# WRONG! Result image has error , Pixel       10113 is wrong!
+#                The output data is cb, but the expected data is 50 
+# WRONG! Result image has error , Pixel       10241 is wrong!
+#                The output data is 4f, but the expected data is 50 
+# WRONG! Result image has error , Pixel       10370 is wrong!
+#                The output data is 4e, but the expected data is 4d 
+# WRONG! Result image has error , Pixel       10497 is wrong!
+#                The output data is ce, but the expected data is 4f 
+# WRONG! Result image has error , Pixel       10498 is wrong!
+#                The output data is 4e, but the expected data is 4c 
+# WRONG! Result image has error , Pixel       10625 is wrong!
+#                The output data is ce, but the expected data is 4c 
+# WRONG! Result image has error , Pixel       10626 is wrong!
+#                The output data is 4c, but the expected data is 4b 
+# WRONG! Result image has error , Pixel       10753 is wrong!
+#                The output data is d1, but the expected data is 4a 
+# WRONG! Result image has error , Pixel       10754 is wrong!
+#                The output data is 4a, but the expected data is 49 
+# WRONG! Result image has error , Pixel       10881 is wrong!
+#                The output data is d3, but the expected data is 46 
+# WRONG! Result image has error , Pixel       10882 is wrong!
+#                The output data is 47, but the expected data is 46 
+# WRONG! Result image has error , Pixel       11009 is wrong!
+#                The output data is d3, but the expected data is 43 
+# WRONG! Result image has error , Pixel       11010 is wrong!
+#                The output data is 46, but the expected data is 45 
+# WRONG! Result image has error , Pixel       11137 is wrong!
+#                The output data is d3, but the expected data is 3c 
+# WRONG! Result image has error , Pixel       11138 is wrong!
+#                The output data is 45, but the expected data is 3f 
+# WRONG! Result image has error , Pixel       11265 is wrong!
+#                The output data is d3, but the expected data is 3b 
+# WRONG! Result image has error , Pixel       11266 is wrong!
+#                The output data is 42, but the expected data is 3d 
+# WRONG! Result image has error , Pixel       11393 is wrong!
+#                The output data is d2, but the expected data is 38 
+# WRONG! Result image has error , Pixel       11394 is wrong!
+#                The output data is 3d, but the expected data is 3b 
+# WRONG! Result image has error , Pixel       11521 is wrong!
+#                The output data is cc, but the expected data is 38 
+# WRONG! Result image has error , Pixel       11522 is wrong!
+#                The output data is 3d, but the expected data is 38 
+# WRONG! Result image has error , Pixel       11649 is wrong!
+#                The output data is cc, but the expected data is 37 
+# WRONG! Result image has error , Pixel       11650 is wrong!
+#                The output data is 38, but the expected data is 37 
+# WRONG! Result image has error , Pixel       11777 is wrong!
+#                The output data is cd, but the expected data is 34 
+# WRONG! Result image has error , Pixel       11905 is wrong!
+#                The output data is cc, but the expected data is 32 
+# WRONG! Result image has error , Pixel       11906 is wrong!
+#                The output data is 33, but the expected data is 32 
+# WRONG! Result image has error , Pixel       12033 is wrong!
+#                The output data is c5, but the expected data is 30 
+# WRONG! Result image has error , Pixel       12161 is wrong!
+#                The output data is 60, but the expected data is 30 
+# WRONG! Result image has error , Pixel       12162 is wrong!
+#                The output data is 32, but the expected data is 30 
+# WRONG! Result image has error , Pixel       12289 is wrong!
+#                The output data is 2d, but the expected data is 30 
+# WRONG! Result image has error , Pixel       12290 is wrong!
+#                The output data is 2d, but the expected data is 2e 
+# WRONG! Result image has error , Pixel       12417 is wrong!
+#                The output data is 2d, but the expected data is 32 
+# WRONG! Result image has error , Pixel       12418 is wrong!
+#                The output data is 2d, but the expected data is 30 
+# WRONG! Result image has error , Pixel       12545 is wrong!
+#                The output data is 32, but the expected data is 3e 
+# WRONG! Result image has error , Pixel       12546 is wrong!
+#                The output data is 32, but the expected data is 34 
+# WRONG! Result image has error , Pixel       12673 is wrong!
+#                The output data is 4e, but the expected data is 58 
+# WRONG! Result image has error , Pixel       12801 is wrong!
+#                The output data is 55, but the expected data is 82 
+# WRONG! Result image has error , Pixel       12802 is wrong!
+#                The output data is 56, but the expected data is 66 
+# WRONG! Result image has error , Pixel       12929 is wrong!
+#                The output data is 56, but the expected data is 85 
+# WRONG! Result image has error , Pixel       12930 is wrong!
+#                The output data is 58, but the expected data is 82 
+# WRONG! Result image has error , Pixel       13057 is wrong!
+#                The output data is 58, but the expected data is 87 
+# WRONG! Result image has error , Pixel       13058 is wrong!
+#                The output data is 72, but the expected data is 8d 
+# WRONG! Result image has error , Pixel       13185 is wrong!
+#                The output data is 5b, but the expected data is 80 
+# WRONG! Result image has error , Pixel       13186 is wrong!
+#                The output data is 8d, but the expected data is 8e 
+# WRONG! Result image has error , Pixel       13313 is wrong!
+#                The output data is 63, but the expected data is 74 
+# WRONG! Result image has error , Pixel       13441 is wrong!
+#                The output data is 69, but the expected data is 52 
+# WRONG! Result image has error , Pixel       13569 is wrong!
+#                The output data is 69, but the expected data is 38 
+# WRONG! Result image has error , Pixel       13697 is wrong!
+#                The output data is 69, but the expected data is 37 
+# WRONG! Result image has error , Pixel       13825 is wrong!
+#                The output data is 67, but the expected data is 29 
+# WRONG! Result image has error , Pixel       13953 is wrong!
+#                The output data is 65, but the expected data is 29 
+# WRONG! Result image has error , Pixel       14081 is wrong!
+#                The output data is 62, but the expected data is 29 
+# WRONG! Result image has error , Pixel       14209 is wrong!
+#                The output data is 58, but the expected data is 27 
+# WRONG! Result image has error , Pixel       14337 is wrong!
+#                The output data is 58, but the expected data is 27 
+# WRONG! Result image has error , Pixel       14338 is wrong!
+#                The output data is 5f, but the expected data is 58 
+# WRONG! Result image has error , Pixel       14465 is wrong!
+#                The output data is 5b, but the expected data is 27 
+# WRONG! Result image has error , Pixel       14466 is wrong!
+#                The output data is 5e, but the expected data is 49 
+# WRONG! Result image has error , Pixel       14593 is wrong!
+#                The output data is 4f, but the expected data is 27 
+# WRONG! Result image has error , Pixel       14594 is wrong!
+#                The output data is 5e, but the expected data is 3f 
+# WRONG! Result image has error , Pixel       14721 is wrong!
+#                The output data is 40, but the expected data is 27 
+# WRONG! Result image has error , Pixel       14722 is wrong!
+#                The output data is 4f, but the expected data is 3e 
+# WRONG! Result image has error , Pixel       14849 is wrong!
+#                The output data is 3f, but the expected data is 26 
+# WRONG! Result image has error , Pixel       14850 is wrong!
+#                The output data is 40, but the expected data is 31 
+# WRONG! Result image has error , Pixel       14977 is wrong!
+#                The output data is 37, but the expected data is 2d 
+# WRONG! Result image has error , Pixel       15105 is wrong!
+#                The output data is 37, but the expected data is 3e 
+# WRONG! Result image has error , Pixel       15106 is wrong!
+#                The output data is 3e, but the expected data is 54 
+# WRONG! Result image has error , Pixel       15233 is wrong!
+#                The output data is 3e, but the expected data is 59 
+# WRONG! Result image has error , Pixel       15234 is wrong!
+#                The output data is 59, but the expected data is 5e 
+# WRONG! Result image has error , Pixel       15361 is wrong!
+#                The output data is 42, but the expected data is 5d 
+# WRONG! Result image has error , Pixel       15362 is wrong!
+#                The output data is 6b, but the expected data is 6c 
+# WRONG! Result image has error , Pixel       15489 is wrong!
+#                The output data is 44, but the expected data is 5f 
+# WRONG! Result image has error , Pixel       15490 is wrong!
+#                The output data is 6b, but the expected data is 6c 
+# WRONG! Result image has error , Pixel       15617 is wrong!
+#                The output data is 44, but the expected data is 59 
+# WRONG! Result image has error , Pixel       15618 is wrong!
+#                The output data is 63, but the expected data is 6c 
+# WRONG! Result image has error , Pixel       15745 is wrong!
+#                The output data is 3f, but the expected data is 46 
+# WRONG! Result image has error , Pixel       15746 is wrong!
+#                The output data is 59, but the expected data is 5f 
+#  Result image be found         201 error !
+#  
+# -----------------------------------------------------
+# 
+# --------------------- S U M M A R Y -----------------
+# 
+# FAIL!!!  There are         201 errors! in result image 
+# 
+# -----------------------------------------------------
+# 
+# ** Note: $finish    : D:/109-2_NCKU/HW4_v3/testfixture.v(123)
+#    Time: 5570660 ns  Iteration: 0  Instance: /testfixture
+# 1
+# Break in Module testfixture at D:/109-2_NCKU/HW4_v3/testfixture.v line 123
+# Compile of MFE.v was successful.
+# Compile of testfixture.v was successful.
+# 2 compiles, 0 failed with no errors. 
+restart
+# Refreshing D:/109-2_NCKU/HW4_v3/work.testfixture
+# Loading work.testfixture
+# Refreshing D:/109-2_NCKU/HW4_v3/work.MFE
+# Loading work.MFE
+run -all
+# -----------------------------------------------------
+# 
+# START!!! Simulation Start .....
+# 
+# -----------------------------------------------------
+# 
+# WRONG! Result image has error , Pixel         257 is wrong!
+#                The output data is 88, but the expected data is 9e 
+# WRONG! Result image has error , Pixel         258 is wrong!
+#                The output data is 9b, but the expected data is 9c 
+# WRONG! Result image has error , Pixel         385 is wrong!
+#                The output data is 35, but the expected data is 9d 
+# WRONG! Result image has error , Pixel         386 is wrong!
+#                The output data is 9b, but the expected data is 9c 
+# WRONG! Result image has error , Pixel         513 is wrong!
+#                The output data is 2d, but the expected data is 9c 
+# WRONG! Result image has error , Pixel         514 is wrong!
+#                The output data is 9a, but the expected data is 9b 
+# WRONG! Result image has error , Pixel         641 is wrong!
+#                The output data is 32, but the expected data is 9b 
+# WRONG! Result image has error , Pixel         769 is wrong!
+#                The output data is 35, but the expected data is 9c 
+# WRONG! Result image has error , Pixel         897 is wrong!
+#                The output data is 36, but the expected data is 9e 
+# WRONG! Result image has error , Pixel        1025 is wrong!
+#                The output data is 36, but the expected data is 9e 
+# WRONG! Result image has error , Pixel        1153 is wrong!
+#                The output data is 31, but the expected data is 9e 
+# WRONG! Result image has error , Pixel        1281 is wrong!
+#                The output data is 2f, but the expected data is 9f 
+# WRONG! Result image has error , Pixel        1409 is wrong!
+#                The output data is 2e, but the expected data is a1 
+# WRONG! Result image has error , Pixel        1410 is wrong!
+#                The output data is a0, but the expected data is a1 
+# WRONG! Result image has error , Pixel        1537 is wrong!
+#                The output data is 2e, but the expected data is a1 
+# WRONG! Result image has error , Pixel        1538 is wrong!
+#                The output data is a0, but the expected data is a1 
+# WRONG! Result image has error , Pixel        1665 is wrong!
+#                The output data is 2f, but the expected data is a1 
+# WRONG! Result image has error , Pixel        1666 is wrong!
+#                The output data is a2, but the expected data is a4 
+# WRONG! Result image has error , Pixel        1793 is wrong!
+#                The output data is 2f, but the expected data is a1 
+# WRONG! Result image has error , Pixel        1794 is wrong!
+#                The output data is 9c, but the expected data is a5 
+# WRONG! Result image has error , Pixel        1921 is wrong!
+#                The output data is 30, but the expected data is a8 
+# WRONG! Result image has error , Pixel        1922 is wrong!
+#                The output data is 9c, but the expected data is a5 
+# WRONG! Result image has error , Pixel        2049 is wrong!
+#                The output data is 37, but the expected data is a8 
+# WRONG! Result image has error , Pixel        2050 is wrong!
+#                The output data is 95, but the expected data is a1 
+# WRONG! Result image has error , Pixel        2177 is wrong!
+#                The output data is 37, but the expected data is a8 
+# WRONG! Result image has error , Pixel        2178 is wrong!
+#                The output data is 88, but the expected data is 9d 
+# WRONG! Result image has error , Pixel        2305 is wrong!
+#                The output data is 2f, but the expected data is a3 
+# WRONG! Result image has error , Pixel        2306 is wrong!
+#                The output data is 78, but the expected data is 93 
+# WRONG! Result image has error , Pixel        2433 is wrong!
+#                The output data is 59, but the expected data is 9e 
+# WRONG! Result image has error , Pixel        2434 is wrong!
+#                The output data is 70, but the expected data is 87 
+# WRONG! Result image has error , Pixel        2561 is wrong!
+#                The output data is 70, but the expected data is 91 
+# WRONG! Result image has error , Pixel        2562 is wrong!
+#                The output data is 5d, but the expected data is 70 
+# WRONG! Result image has error , Pixel        2689 is wrong!
+#                The output data is 8d, but the expected data is 7f 
+# WRONG! Result image has error , Pixel        2690 is wrong!
+#                The output data is 5a, but the expected data is 57 
+# WRONG! Result image has error , Pixel        2817 is wrong!
+#                The output data is 8c, but the expected data is 57 
+# WRONG! Result image has error , Pixel        2818 is wrong!
+#                The output data is 5a, but the expected data is 57 
+# WRONG! Result image has error , Pixel        2945 is wrong!
+#                The output data is 86, but the expected data is 57 
+# WRONG! Result image has error , Pixel        2946 is wrong!
+#                The output data is 5d, but the expected data is 57 
+# WRONG! Result image has error , Pixel        3073 is wrong!
+#                The output data is 86, but the expected data is 5a 
+# WRONG! Result image has error , Pixel        3074 is wrong!
+#                The output data is 5d, but the expected data is 5a 
+# WRONG! Result image has error , Pixel        3201 is wrong!
+#                The output data is 9d, but the expected data is 5a 
+# WRONG! Result image has error , Pixel        3202 is wrong!
+#                The output data is 5d, but the expected data is 5c 
+# WRONG! Result image has error , Pixel        3329 is wrong!
+#                The output data is a3, but the expected data is 5a 
+# WRONG! Result image has error , Pixel        3330 is wrong!
+#                The output data is 5d, but the expected data is 5c 
+# WRONG! Result image has error , Pixel        3457 is wrong!
+#                The output data is a1, but the expected data is 5a 
+# WRONG! Result image has error , Pixel        3458 is wrong!
+#                The output data is 5d, but the expected data is 5c 
+# WRONG! Result image has error , Pixel        3585 is wrong!
+#                The output data is 9e, but the expected data is 5a 
+# WRONG! Result image has error , Pixel        3586 is wrong!
+#                The output data is 5c, but the expected data is 5a 
+# WRONG! Result image has error , Pixel        3713 is wrong!
+#                The output data is 9e, but the expected data is 59 
+# WRONG! Result image has error , Pixel        3714 is wrong!
+#                The output data is 5c, but the expected data is 5a 
+# WRONG! Result image has error , Pixel        3841 is wrong!
+#                The output data is 9e, but the expected data is 5b 
+# WRONG! Result image has error , Pixel        3842 is wrong!
+#                The output data is 5e, but the expected data is 5b 
+# WRONG! Result image has error , Pixel        3969 is wrong!
+#                The output data is 9d, but the expected data is 5c 
+# WRONG! Result image has error , Pixel        3970 is wrong!
+#                The output data is 62, but the expected data is 5e 
+# WRONG! Result image has error , Pixel        4097 is wrong!
+#                The output data is 9c, but the expected data is 62 
+# WRONG! Result image has error , Pixel        4098 is wrong!
+#                The output data is 63, but the expected data is 62 
+# WRONG! Result image has error , Pixel        4225 is wrong!
+#                The output data is 9a, but the expected data is 63 
+# WRONG! Result image has error , Pixel        4226 is wrong!
+#                The output data is 63, but the expected data is 62 
+# WRONG! Result image has error , Pixel        4353 is wrong!
+#                The output data is 9a, but the expected data is 63 
+# WRONG! Result image has error , Pixel        4481 is wrong!
+#                The output data is 99, but the expected data is 64 
+# WRONG! Result image has error , Pixel        4609 is wrong!
+#                The output data is 99, but the expected data is 64 
+# WRONG! Result image has error , Pixel        4737 is wrong!
+#                The output data is 99, but the expected data is 64 
+# WRONG! Result image has error , Pixel        4738 is wrong!
+#                The output data is 65, but the expected data is 63 
+# WRONG! Result image has error , Pixel        4865 is wrong!
+#                The output data is 9c, but the expected data is 61 
+# WRONG! Result image has error , Pixel        4866 is wrong!
+#                The output data is 63, but the expected data is 61 
+# WRONG! Result image has error , Pixel        4993 is wrong!
+#                The output data is 9c, but the expected data is 61 
+# WRONG! Result image has error , Pixel        5121 is wrong!
+#                The output data is 9c, but the expected data is 5e 
+# WRONG! Result image has error , Pixel        5122 is wrong!
+#                The output data is 60, but the expected data is 5e 
+# WRONG! Result image has error , Pixel        5249 is wrong!
+#                The output data is 9c, but the expected data is 5f 
+# WRONG! Result image has error , Pixel        5250 is wrong!
+#                The output data is 62, but the expected data is 5f 
+# WRONG! Result image has error , Pixel        5377 is wrong!
+#                The output data is 9b, but the expected data is 60 
+# WRONG! Result image has error , Pixel        5505 is wrong!
+#                The output data is 9a, but the expected data is 62 
+# WRONG! Result image has error , Pixel        5506 is wrong!
+#                The output data is 63, but the expected data is 62 
+# WRONG! Result image has error , Pixel        5633 is wrong!
+#                The output data is 9a, but the expected data is 63 
+# WRONG! Result image has error , Pixel        5634 is wrong!
+#                The output data is 64, but the expected data is 63 
+# WRONG! Result image has error , Pixel        5761 is wrong!
+#                The output data is 9a, but the expected data is 64 
+# WRONG! Result image has error , Pixel        5762 is wrong!
+#                The output data is 65, but the expected data is 64 
+# WRONG! Result image has error , Pixel        5889 is wrong!
+#                The output data is 99, but the expected data is 65 
+# WRONG! Result image has error , Pixel        6017 is wrong!
+#                The output data is 97, but the expected data is 68 
+# WRONG! Result image has error , Pixel        6018 is wrong!
+#                The output data is 67, but the expected data is 65 
+# WRONG! Result image has error , Pixel        6145 is wrong!
+#                The output data is 97, but the expected data is 69 
+# WRONG! Result image has error , Pixel        6273 is wrong!
+#                The output data is 97, but the expected data is 6a 
+# WRONG! Result image has error , Pixel        6401 is wrong!
+#                The output data is 98, but the expected data is 6a 
+# WRONG! Result image has error , Pixel        6529 is wrong!
+#                The output data is 97, but the expected data is 6b 
+# WRONG! Result image has error , Pixel        6657 is wrong!
+#                The output data is 97, but the expected data is 6a 
+# WRONG! Result image has error , Pixel        6785 is wrong!
+#                The output data is 97, but the expected data is 69 
+# WRONG! Result image has error , Pixel        6913 is wrong!
+#                The output data is 97, but the expected data is 68 
+# WRONG! Result image has error , Pixel        6914 is wrong!
+#                The output data is 68, but the expected data is 65 
+# WRONG! Result image has error , Pixel        7041 is wrong!
+#                The output data is 97, but the expected data is 68 
+# WRONG! Result image has error , Pixel        7042 is wrong!
+#                The output data is 68, but the expected data is 67 
+# WRONG! Result image has error , Pixel        7169 is wrong!
+#                The output data is 97, but the expected data is 68 
+# WRONG! Result image has error , Pixel        7170 is wrong!
+#                The output data is 67, but the expected data is 66 
+# WRONG! Result image has error , Pixel        7297 is wrong!
+#                The output data is 95, but the expected data is 68 
+# WRONG! Result image has error , Pixel        7425 is wrong!
+#                The output data is 95, but the expected data is 66 
+# WRONG! Result image has error , Pixel        7553 is wrong!
+#                The output data is 95, but the expected data is 66 
+# WRONG! Result image has error , Pixel        7681 is wrong!
+#                The output data is 94, but the expected data is 65 
+# WRONG! Result image has error , Pixel        7809 is wrong!
+#                The output data is 8a, but the expected data is 65 
+# WRONG! Result image has error , Pixel        7937 is wrong!
+#                The output data is 86, but the expected data is 65 
+# WRONG! Result image has error , Pixel        7938 is wrong!
+#                The output data is 68, but the expected data is 65 
+# WRONG! Result image has error , Pixel        8065 is wrong!
+#                The output data is 85, but the expected data is 67 
+# WRONG! Result image has error , Pixel        8066 is wrong!
+#                The output data is 68, but the expected data is 65 
+# WRONG! Result image has error , Pixel        8193 is wrong!
+#                The output data is 85, but the expected data is 64 
+# WRONG! Result image has error , Pixel        8194 is wrong!
+#                The output data is 68, but the expected data is 63 
+# WRONG! Result image has error , Pixel        8321 is wrong!
+#                The output data is 85, but the expected data is 60 
+# WRONG! Result image has error , Pixel        8322 is wrong!
+#                The output data is 62, but the expected data is 5f 
+# WRONG! Result image has error , Pixel        8449 is wrong!
+#                The output data is 83, but the expected data is 5f 
+# WRONG! Result image has error , Pixel        8577 is wrong!
+#                The output data is 83, but the expected data is 62 
+# WRONG! Result image has error , Pixel        8705 is wrong!
+#                The output data is 83, but the expected data is 63 
+# WRONG! Result image has error , Pixel        8706 is wrong!
+#                The output data is 63, but the expected data is 62 
+# WRONG! Result image has error , Pixel        8833 is wrong!
+#                The output data is a2, but the expected data is 65 
+# WRONG! Result image has error , Pixel        8961 is wrong!
+#                The output data is b8, but the expected data is 64 
+# WRONG! Result image has error , Pixel        8962 is wrong!
+#                The output data is 61, but the expected data is 5c 
+# WRONG! Result image has error , Pixel        9089 is wrong!
+#                The output data is bc, but the expected data is 5b 
+# WRONG! Result image has error , Pixel        9217 is wrong!
+#                The output data is bc, but the expected data is 5a 
+# WRONG! Result image has error , Pixel        9345 is wrong!
+#                The output data is be, but the expected data is 55 
+# WRONG! Result image has error , Pixel        9473 is wrong!
+#                The output data is c0, but the expected data is 4f 
+# WRONG! Result image has error , Pixel        9601 is wrong!
+#                The output data is c8, but the expected data is 4d 
+# WRONG! Result image has error , Pixel        9602 is wrong!
+#                The output data is 4d, but the expected data is 4c 
+# WRONG! Result image has error , Pixel        9729 is wrong!
+#                The output data is c8, but the expected data is 4d 
+# WRONG! Result image has error , Pixel        9730 is wrong!
+#                The output data is 4c, but the expected data is 4b 
+# WRONG! Result image has error , Pixel        9857 is wrong!
+#                The output data is c8, but the expected data is 4d 
+# WRONG! Result image has error , Pixel        9858 is wrong!
+#                The output data is 4c, but the expected data is 4b 
+# WRONG! Result image has error , Pixel        9985 is wrong!
+#                The output data is c8, but the expected data is 4f 
+# WRONG! Result image has error , Pixel        9986 is wrong!
+#                The output data is 4f, but the expected data is 4d 
+# WRONG! Result image has error , Pixel       10113 is wrong!
+#                The output data is cb, but the expected data is 50 
+# WRONG! Result image has error , Pixel       10241 is wrong!
+#                The output data is 4f, but the expected data is 50 
+# WRONG! Result image has error , Pixel       10370 is wrong!
+#                The output data is 4e, but the expected data is 4d 
+# WRONG! Result image has error , Pixel       10497 is wrong!
+#                The output data is ce, but the expected data is 4f 
+# WRONG! Result image has error , Pixel       10498 is wrong!
+#                The output data is 4e, but the expected data is 4c 
+# WRONG! Result image has error , Pixel       10625 is wrong!
+#                The output data is ce, but the expected data is 4c 
+# WRONG! Result image has error , Pixel       10626 is wrong!
+#                The output data is 4c, but the expected data is 4b 
+# WRONG! Result image has error , Pixel       10753 is wrong!
+#                The output data is d1, but the expected data is 4a 
+# WRONG! Result image has error , Pixel       10754 is wrong!
+#                The output data is 4a, but the expected data is 49 
+# WRONG! Result image has error , Pixel       10881 is wrong!
+#                The output data is d3, but the expected data is 46 
+# WRONG! Result image has error , Pixel       10882 is wrong!
+#                The output data is 47, but the expected data is 46 
+# WRONG! Result image has error , Pixel       11009 is wrong!
+#                The output data is d3, but the expected data is 43 
+# WRONG! Result image has error , Pixel       11010 is wrong!
+#                The output data is 46, but the expected data is 45 
+# WRONG! Result image has error , Pixel       11137 is wrong!
+#                The output data is d3, but the expected data is 3c 
+# WRONG! Result image has error , Pixel       11138 is wrong!
+#                The output data is 45, but the expected data is 3f 
+# WRONG! Result image has error , Pixel       11265 is wrong!
+#                The output data is d3, but the expected data is 3b 
+# WRONG! Result image has error , Pixel       11266 is wrong!
+#                The output data is 42, but the expected data is 3d 
+# WRONG! Result image has error , Pixel       11393 is wrong!
+#                The output data is d2, but the expected data is 38 
+# WRONG! Result image has error , Pixel       11394 is wrong!
+#                The output data is 3d, but the expected data is 3b 
+# WRONG! Result image has error , Pixel       11521 is wrong!
+#                The output data is cc, but the expected data is 38 
+# WRONG! Result image has error , Pixel       11522 is wrong!
+#                The output data is 3d, but the expected data is 38 
+# WRONG! Result image has error , Pixel       11649 is wrong!
+#                The output data is cc, but the expected data is 37 
+# WRONG! Result image has error , Pixel       11650 is wrong!
+#                The output data is 38, but the expected data is 37 
+# WRONG! Result image has error , Pixel       11777 is wrong!
+#                The output data is cd, but the expected data is 34 
+# WRONG! Result image has error , Pixel       11905 is wrong!
+#                The output data is cc, but the expected data is 32 
+# WRONG! Result image has error , Pixel       11906 is wrong!
+#                The output data is 33, but the expected data is 32 
+# WRONG! Result image has error , Pixel       12033 is wrong!
+#                The output data is c5, but the expected data is 30 
+# WRONG! Result image has error , Pixel       12161 is wrong!
+#                The output data is 60, but the expected data is 30 
+# WRONG! Result image has error , Pixel       12162 is wrong!
+#                The output data is 32, but the expected data is 30 
+# WRONG! Result image has error , Pixel       12289 is wrong!
+#                The output data is 2d, but the expected data is 30 
+# WRONG! Result image has error , Pixel       12290 is wrong!
+#                The output data is 2d, but the expected data is 2e 
+# WRONG! Result image has error , Pixel       12417 is wrong!
+#                The output data is 2d, but the expected data is 32 
+# WRONG! Result image has error , Pixel       12418 is wrong!
+#                The output data is 2d, but the expected data is 30 
+# WRONG! Result image has error , Pixel       12545 is wrong!
+#                The output data is 32, but the expected data is 3e 
+# WRONG! Result image has error , Pixel       12546 is wrong!
+#                The output data is 32, but the expected data is 34 
+# WRONG! Result image has error , Pixel       12673 is wrong!
+#                The output data is 4e, but the expected data is 58 
+# WRONG! Result image has error , Pixel       12801 is wrong!
+#                The output data is 55, but the expected data is 82 
+# WRONG! Result image has error , Pixel       12802 is wrong!
+#                The output data is 56, but the expected data is 66 
+# WRONG! Result image has error , Pixel       12929 is wrong!
+#                The output data is 56, but the expected data is 85 
+# WRONG! Result image has error , Pixel       12930 is wrong!
+#                The output data is 58, but the expected data is 82 
+# WRONG! Result image has error , Pixel       13057 is wrong!
+#                The output data is 58, but the expected data is 87 
+# WRONG! Result image has error , Pixel       13058 is wrong!
+#                The output data is 72, but the expected data is 8d 
+# WRONG! Result image has error , Pixel       13185 is wrong!
+#                The output data is 5b, but the expected data is 80 
+# WRONG! Result image has error , Pixel       13186 is wrong!
+#                The output data is 8d, but the expected data is 8e 
+# WRONG! Result image has error , Pixel       13313 is wrong!
+#                The output data is 63, but the expected data is 74 
+# WRONG! Result image has error , Pixel       13441 is wrong!
+#                The output data is 69, but the expected data is 52 
+# WRONG! Result image has error , Pixel       13569 is wrong!
+#                The output data is 69, but the expected data is 38 
+# WRONG! Result image has error , Pixel       13697 is wrong!
+#                The output data is 69, but the expected data is 37 
+# WRONG! Result image has error , Pixel       13825 is wrong!
+#                The output data is 67, but the expected data is 29 
+# WRONG! Result image has error , Pixel       13953 is wrong!
+#                The output data is 65, but the expected data is 29 
+# WRONG! Result image has error , Pixel       14081 is wrong!
+#                The output data is 62, but the expected data is 29 
+# WRONG! Result image has error , Pixel       14209 is wrong!
+#                The output data is 58, but the expected data is 27 
+# WRONG! Result image has error , Pixel       14337 is wrong!
+#                The output data is 58, but the expected data is 27 
+# WRONG! Result image has error , Pixel       14338 is wrong!
+#                The output data is 5f, but the expected data is 58 
+# WRONG! Result image has error , Pixel       14465 is wrong!
+#                The output data is 5b, but the expected data is 27 
+# WRONG! Result image has error , Pixel       14466 is wrong!
+#                The output data is 5e, but the expected data is 49 
+# WRONG! Result image has error , Pixel       14593 is wrong!
+#                The output data is 4f, but the expected data is 27 
+# WRONG! Result image has error , Pixel       14594 is wrong!
+#                The output data is 5e, but the expected data is 3f 
+# WRONG! Result image has error , Pixel       14721 is wrong!
+#                The output data is 40, but the expected data is 27 
+# WRONG! Result image has error , Pixel       14722 is wrong!
+#                The output data is 4f, but the expected data is 3e 
+# WRONG! Result image has error , Pixel       14849 is wrong!
+#                The output data is 3f, but the expected data is 26 
+# WRONG! Result image has error , Pixel       14850 is wrong!
+#                The output data is 40, but the expected data is 31 
+# WRONG! Result image has error , Pixel       14977 is wrong!
+#                The output data is 37, but the expected data is 2d 
+# WRONG! Result image has error , Pixel       15105 is wrong!
+#                The output data is 37, but the expected data is 3e 
+# WRONG! Result image has error , Pixel       15106 is wrong!
+#                The output data is 3e, but the expected data is 54 
+# WRONG! Result image has error , Pixel       15233 is wrong!
+#                The output data is 3e, but the expected data is 59 
+# WRONG! Result image has error , Pixel       15234 is wrong!
+#                The output data is 59, but the expected data is 5e 
+# WRONG! Result image has error , Pixel       15361 is wrong!
+#                The output data is 42, but the expected data is 5d 
+# WRONG! Result image has error , Pixel       15362 is wrong!
+#                The output data is 6b, but the expected data is 6c 
+# WRONG! Result image has error , Pixel       15489 is wrong!
+#                The output data is 44, but the expected data is 5f 
+# WRONG! Result image has error , Pixel       15490 is wrong!
+#                The output data is 6b, but the expected data is 6c 
+# WRONG! Result image has error , Pixel       15617 is wrong!
+#                The output data is 44, but the expected data is 59 
+# WRONG! Result image has error , Pixel       15618 is wrong!
+#                The output data is 63, but the expected data is 6c 
+# WRONG! Result image has error , Pixel       15745 is wrong!
+#                The output data is 3f, but the expected data is 46 
+# WRONG! Result image has error , Pixel       15746 is wrong!
+#                The output data is 59, but the expected data is 5f 
+#  Result image be found         201 error !
+#  
+# -----------------------------------------------------
+# 
+# --------------------- S U M M A R Y -----------------
+# 
+# FAIL!!!  There are         201 errors! in result image 
+# 
+# -----------------------------------------------------
+# 
+# ** Note: $finish    : D:/109-2_NCKU/HW4_v3/testfixture.v(123)
+#    Time: 5570660 ns  Iteration: 0  Instance: /testfixture
+# 1
+# Break in Module testfixture at D:/109-2_NCKU/HW4_v3/testfixture.v line 123
+# Compile of MFE.v was successful.
+# Compile of testfixture.v was successful.
+# 2 compiles, 0 failed with no errors. 
+restart
+# Refreshing D:/109-2_NCKU/HW4_v3/work.testfixture
+# Loading work.testfixture
+# Refreshing D:/109-2_NCKU/HW4_v3/work.MFE
+# Loading work.MFE
+run -all
+# -----------------------------------------------------
+# 
+# START!!! Simulation Start .....
+# 
+# -----------------------------------------------------
+# 
+# WRONG! Result image has error , Pixel         257 is wrong!
+#                The output data is 88, but the expected data is 9e 
+# WRONG! Result image has error , Pixel         258 is wrong!
+#                The output data is 9b, but the expected data is 9c 
+# WRONG! Result image has error , Pixel         385 is wrong!
+#                The output data is 35, but the expected data is 9d 
+# WRONG! Result image has error , Pixel         386 is wrong!
+#                The output data is 9b, but the expected data is 9c 
+# WRONG! Result image has error , Pixel         513 is wrong!
+#                The output data is 2d, but the expected data is 9c 
+# WRONG! Result image has error , Pixel         514 is wrong!
+#                The output data is 9a, but the expected data is 9b 
+# WRONG! Result image has error , Pixel         641 is wrong!
+#                The output data is 32, but the expected data is 9b 
+# WRONG! Result image has error , Pixel         769 is wrong!
+#                The output data is 35, but the expected data is 9c 
+# WRONG! Result image has error , Pixel         897 is wrong!
+#                The output data is 36, but the expected data is 9e 
+# WRONG! Result image has error , Pixel        1025 is wrong!
+#                The output data is 36, but the expected data is 9e 
+# WRONG! Result image has error , Pixel        1153 is wrong!
+#                The output data is 31, but the expected data is 9e 
+# WRONG! Result image has error , Pixel        1281 is wrong!
+#                The output data is 2f, but the expected data is 9f 
+# WRONG! Result image has error , Pixel        1409 is wrong!
+#                The output data is 2e, but the expected data is a1 
+# WRONG! Result image has error , Pixel        1410 is wrong!
+#                The output data is a0, but the expected data is a1 
+# WRONG! Result image has error , Pixel        1537 is wrong!
+#                The output data is 2e, but the expected data is a1 
+# WRONG! Result image has error , Pixel        1538 is wrong!
+#                The output data is a0, but the expected data is a1 
+# WRONG! Result image has error , Pixel        1665 is wrong!
+#                The output data is 2f, but the expected data is a1 
+# WRONG! Result image has error , Pixel        1666 is wrong!
+#                The output data is a2, but the expected data is a4 
+# WRONG! Result image has error , Pixel        1793 is wrong!
+#                The output data is 2f, but the expected data is a1 
+# WRONG! Result image has error , Pixel        1794 is wrong!
+#                The output data is 9c, but the expected data is a5 
+# WRONG! Result image has error , Pixel        1921 is wrong!
+#                The output data is 30, but the expected data is a8 
+# WRONG! Result image has error , Pixel        1922 is wrong!
+#                The output data is 9c, but the expected data is a5 
+# WRONG! Result image has error , Pixel        2049 is wrong!
+#                The output data is 37, but the expected data is a8 
+# WRONG! Result image has error , Pixel        2050 is wrong!
+#                The output data is 95, but the expected data is a1 
+# WRONG! Result image has error , Pixel        2177 is wrong!
+#                The output data is 37, but the expected data is a8 
+# WRONG! Result image has error , Pixel        2178 is wrong!
+#                The output data is 88, but the expected data is 9d 
+# WRONG! Result image has error , Pixel        2305 is wrong!
+#                The output data is 2f, but the expected data is a3 
+# WRONG! Result image has error , Pixel        2306 is wrong!
+#                The output data is 78, but the expected data is 93 
+# WRONG! Result image has error , Pixel        2433 is wrong!
+#                The output data is 59, but the expected data is 9e 
+# WRONG! Result image has error , Pixel        2434 is wrong!
+#                The output data is 70, but the expected data is 87 
+# WRONG! Result image has error , Pixel        2561 is wrong!
+#                The output data is 70, but the expected data is 91 
+# WRONG! Result image has error , Pixel        2562 is wrong!
+#                The output data is 5d, but the expected data is 70 
+# WRONG! Result image has error , Pixel        2689 is wrong!
+#                The output data is 8d, but the expected data is 7f 
+# WRONG! Result image has error , Pixel        2690 is wrong!
+#                The output data is 5a, but the expected data is 57 
+# WRONG! Result image has error , Pixel        2817 is wrong!
+#                The output data is 8c, but the expected data is 57 
+# WRONG! Result image has error , Pixel        2818 is wrong!
+#                The output data is 5a, but the expected data is 57 
+# WRONG! Result image has error , Pixel        2945 is wrong!
+#                The output data is 86, but the expected data is 57 
+# WRONG! Result image has error , Pixel        2946 is wrong!
+#                The output data is 5d, but the expected data is 57 
+# WRONG! Result image has error , Pixel        3073 is wrong!
+#                The output data is 86, but the expected data is 5a 
+# WRONG! Result image has error , Pixel        3074 is wrong!
+#                The output data is 5d, but the expected data is 5a 
+# WRONG! Result image has error , Pixel        3201 is wrong!
+#                The output data is 9d, but the expected data is 5a 
+# WRONG! Result image has error , Pixel        3202 is wrong!
+#                The output data is 5d, but the expected data is 5c 
+# WRONG! Result image has error , Pixel        3329 is wrong!
+#                The output data is a3, but the expected data is 5a 
+# WRONG! Result image has error , Pixel        3330 is wrong!
+#                The output data is 5d, but the expected data is 5c 
+# WRONG! Result image has error , Pixel        3457 is wrong!
+#                The output data is a1, but the expected data is 5a 
+# WRONG! Result image has error , Pixel        3458 is wrong!
+#                The output data is 5d, but the expected data is 5c 
+# WRONG! Result image has error , Pixel        3585 is wrong!
+#                The output data is 9e, but the expected data is 5a 
+# WRONG! Result image has error , Pixel        3586 is wrong!
+#                The output data is 5c, but the expected data is 5a 
+# WRONG! Result image has error , Pixel        3713 is wrong!
+#                The output data is 9e, but the expected data is 59 
+# WRONG! Result image has error , Pixel        3714 is wrong!
+#                The output data is 5c, but the expected data is 5a 
+# WRONG! Result image has error , Pixel        3841 is wrong!
+#                The output data is 9e, but the expected data is 5b 
+# WRONG! Result image has error , Pixel        3842 is wrong!
+#                The output data is 5e, but the expected data is 5b 
+# WRONG! Result image has error , Pixel        3969 is wrong!
+#                The output data is 9d, but the expected data is 5c 
+# WRONG! Result image has error , Pixel        3970 is wrong!
+#                The output data is 62, but the expected data is 5e 
+# WRONG! Result image has error , Pixel        4097 is wrong!
+#                The output data is 9c, but the expected data is 62 
+# WRONG! Result image has error , Pixel        4098 is wrong!
+#                The output data is 63, but the expected data is 62 
+# WRONG! Result image has error , Pixel        4225 is wrong!
+#                The output data is 9a, but the expected data is 63 
+# WRONG! Result image has error , Pixel        4226 is wrong!
+#                The output data is 63, but the expected data is 62 
+# WRONG! Result image has error , Pixel        4353 is wrong!
+#                The output data is 9a, but the expected data is 63 
+# WRONG! Result image has error , Pixel        4481 is wrong!
+#                The output data is 99, but the expected data is 64 
+# WRONG! Result image has error , Pixel        4609 is wrong!
+#                The output data is 99, but the expected data is 64 
+# WRONG! Result image has error , Pixel        4737 is wrong!
+#                The output data is 99, but the expected data is 64 
+# WRONG! Result image has error , Pixel        4738 is wrong!
+#                The output data is 65, but the expected data is 63 
+# WRONG! Result image has error , Pixel        4865 is wrong!
+#                The output data is 9c, but the expected data is 61 
+# WRONG! Result image has error , Pixel        4866 is wrong!
+#                The output data is 63, but the expected data is 61 
+# WRONG! Result image has error , Pixel        4993 is wrong!
+#                The output data is 9c, but the expected data is 61 
+# WRONG! Result image has error , Pixel        5121 is wrong!
+#                The output data is 9c, but the expected data is 5e 
+# WRONG! Result image has error , Pixel        5122 is wrong!
+#                The output data is 60, but the expected data is 5e 
+# WRONG! Result image has error , Pixel        5249 is wrong!
+#                The output data is 9c, but the expected data is 5f 
+# WRONG! Result image has error , Pixel        5250 is wrong!
+#                The output data is 62, but the expected data is 5f 
+# WRONG! Result image has error , Pixel        5377 is wrong!
+#                The output data is 9b, but the expected data is 60 
+# WRONG! Result image has error , Pixel        5505 is wrong!
+#                The output data is 9a, but the expected data is 62 
+# WRONG! Result image has error , Pixel        5506 is wrong!
+#                The output data is 63, but the expected data is 62 
+# WRONG! Result image has error , Pixel        5633 is wrong!
+#                The output data is 9a, but the expected data is 63 
+# WRONG! Result image has error , Pixel        5634 is wrong!
+#                The output data is 64, but the expected data is 63 
+# WRONG! Result image has error , Pixel        5761 is wrong!
+#                The output data is 9a, but the expected data is 64 
+# WRONG! Result image has error , Pixel        5762 is wrong!
+#                The output data is 65, but the expected data is 64 
+# WRONG! Result image has error , Pixel        5889 is wrong!
+#                The output data is 99, but the expected data is 65 
+# WRONG! Result image has error , Pixel        6017 is wrong!
+#                The output data is 97, but the expected data is 68 
+# WRONG! Result image has error , Pixel        6018 is wrong!
+#                The output data is 67, but the expected data is 65 
+# WRONG! Result image has error , Pixel        6145 is wrong!
+#                The output data is 97, but the expected data is 69 
+# WRONG! Result image has error , Pixel        6273 is wrong!
+#                The output data is 97, but the expected data is 6a 
+# WRONG! Result image has error , Pixel        6401 is wrong!
+#                The output data is 98, but the expected data is 6a 
+# WRONG! Result image has error , Pixel        6529 is wrong!
+#                The output data is 97, but the expected data is 6b 
+# WRONG! Result image has error , Pixel        6657 is wrong!
+#                The output data is 97, but the expected data is 6a 
+# WRONG! Result image has error , Pixel        6785 is wrong!
+#                The output data is 97, but the expected data is 69 
+# WRONG! Result image has error , Pixel        6913 is wrong!
+#                The output data is 97, but the expected data is 68 
+# WRONG! Result image has error , Pixel        6914 is wrong!
+#                The output data is 68, but the expected data is 65 
+# WRONG! Result image has error , Pixel        7041 is wrong!
+#                The output data is 97, but the expected data is 68 
+# WRONG! Result image has error , Pixel        7042 is wrong!
+#                The output data is 68, but the expected data is 67 
+# WRONG! Result image has error , Pixel        7169 is wrong!
+#                The output data is 97, but the expected data is 68 
+# WRONG! Result image has error , Pixel        7170 is wrong!
+#                The output data is 67, but the expected data is 66 
+# WRONG! Result image has error , Pixel        7297 is wrong!
+#                The output data is 95, but the expected data is 68 
+# WRONG! Result image has error , Pixel        7425 is wrong!
+#                The output data is 95, but the expected data is 66 
+# WRONG! Result image has error , Pixel        7553 is wrong!
+#                The output data is 95, but the expected data is 66 
+# WRONG! Result image has error , Pixel        7681 is wrong!
+#                The output data is 94, but the expected data is 65 
+# WRONG! Result image has error , Pixel        7809 is wrong!
+#                The output data is 8a, but the expected data is 65 
+# WRONG! Result image has error , Pixel        7937 is wrong!
+#                The output data is 86, but the expected data is 65 
+# WRONG! Result image has error , Pixel        7938 is wrong!
+#                The output data is 68, but the expected data is 65 
+# WRONG! Result image has error , Pixel        8065 is wrong!
+#                The output data is 85, but the expected data is 67 
+# WRONG! Result image has error , Pixel        8066 is wrong!
+#                The output data is 68, but the expected data is 65 
+# WRONG! Result image has error , Pixel        8193 is wrong!
+#                The output data is 85, but the expected data is 64 
+# WRONG! Result image has error , Pixel        8194 is wrong!
+#                The output data is 68, but the expected data is 63 
+# WRONG! Result image has error , Pixel        8321 is wrong!
+#                The output data is 85, but the expected data is 60 
+# WRONG! Result image has error , Pixel        8322 is wrong!
+#                The output data is 62, but the expected data is 5f 
+# WRONG! Result image has error , Pixel        8449 is wrong!
+#                The output data is 83, but the expected data is 5f 
+# WRONG! Result image has error , Pixel        8577 is wrong!
+#                The output data is 83, but the expected data is 62 
+# WRONG! Result image has error , Pixel        8705 is wrong!
+#                The output data is 83, but the expected data is 63 
+# WRONG! Result image has error , Pixel        8706 is wrong!
+#                The output data is 63, but the expected data is 62 
+# WRONG! Result image has error , Pixel        8833 is wrong!
+#                The output data is a2, but the expected data is 65 
+# WRONG! Result image has error , Pixel        8961 is wrong!
+#                The output data is b8, but the expected data is 64 
+# WRONG! Result image has error , Pixel        8962 is wrong!
+#                The output data is 61, but the expected data is 5c 
+# WRONG! Result image has error , Pixel        9089 is wrong!
+#                The output data is bc, but the expected data is 5b 
+# WRONG! Result image has error , Pixel        9217 is wrong!
+#                The output data is bc, but the expected data is 5a 
+# WRONG! Result image has error , Pixel        9345 is wrong!
+#                The output data is be, but the expected data is 55 
+# WRONG! Result image has error , Pixel        9473 is wrong!
+#                The output data is c0, but the expected data is 4f 
+# WRONG! Result image has error , Pixel        9601 is wrong!
+#                The output data is c8, but the expected data is 4d 
+# WRONG! Result image has error , Pixel        9602 is wrong!
+#                The output data is 4d, but the expected data is 4c 
+# WRONG! Result image has error , Pixel        9729 is wrong!
+#                The output data is c8, but the expected data is 4d 
+# WRONG! Result image has error , Pixel        9730 is wrong!
+#                The output data is 4c, but the expected data is 4b 
+# WRONG! Result image has error , Pixel        9857 is wrong!
+#                The output data is c8, but the expected data is 4d 
+# WRONG! Result image has error , Pixel        9858 is wrong!
+#                The output data is 4c, but the expected data is 4b 
+# WRONG! Result image has error , Pixel        9985 is wrong!
+#                The output data is c8, but the expected data is 4f 
+# WRONG! Result image has error , Pixel        9986 is wrong!
+#                The output data is 4f, but the expected data is 4d 
+# WRONG! Result image has error , Pixel       10113 is wrong!
+#                The output data is cb, but the expected data is 50 
+# WRONG! Result image has error , Pixel       10241 is wrong!
+#                The output data is 4f, but the expected data is 50 
+# WRONG! Result image has error , Pixel       10370 is wrong!
+#                The output data is 4e, but the expected data is 4d 
+# WRONG! Result image has error , Pixel       10497 is wrong!
+#                The output data is ce, but the expected data is 4f 
+# WRONG! Result image has error , Pixel       10498 is wrong!
+#                The output data is 4e, but the expected data is 4c 
+# WRONG! Result image has error , Pixel       10625 is wrong!
+#                The output data is ce, but the expected data is 4c 
+# WRONG! Result image has error , Pixel       10626 is wrong!
+#                The output data is 4c, but the expected data is 4b 
+# WRONG! Result image has error , Pixel       10753 is wrong!
+#                The output data is d1, but the expected data is 4a 
+# WRONG! Result image has error , Pixel       10754 is wrong!
+#                The output data is 4a, but the expected data is 49 
+# WRONG! Result image has error , Pixel       10881 is wrong!
+#                The output data is d3, but the expected data is 46 
+# WRONG! Result image has error , Pixel       10882 is wrong!
+#                The output data is 47, but the expected data is 46 
+# WRONG! Result image has error , Pixel       11009 is wrong!
+#                The output data is d3, but the expected data is 43 
+# WRONG! Result image has error , Pixel       11010 is wrong!
+#                The output data is 46, but the expected data is 45 
+# WRONG! Result image has error , Pixel       11137 is wrong!
+#                The output data is d3, but the expected data is 3c 
+# WRONG! Result image has error , Pixel       11138 is wrong!
+#                The output data is 45, but the expected data is 3f 
+# WRONG! Result image has error , Pixel       11265 is wrong!
+#                The output data is d3, but the expected data is 3b 
+# WRONG! Result image has error , Pixel       11266 is wrong!
+#                The output data is 42, but the expected data is 3d 
+# WRONG! Result image has error , Pixel       11393 is wrong!
+#                The output data is d2, but the expected data is 38 
+# WRONG! Result image has error , Pixel       11394 is wrong!
+#                The output data is 3d, but the expected data is 3b 
+# WRONG! Result image has error , Pixel       11521 is wrong!
+#                The output data is cc, but the expected data is 38 
+# WRONG! Result image has error , Pixel       11522 is wrong!
+#                The output data is 3d, but the expected data is 38 
+# WRONG! Result image has error , Pixel       11649 is wrong!
+#                The output data is cc, but the expected data is 37 
+# WRONG! Result image has error , Pixel       11650 is wrong!
+#                The output data is 38, but the expected data is 37 
+# WRONG! Result image has error , Pixel       11777 is wrong!
+#                The output data is cd, but the expected data is 34 
+# WRONG! Result image has error , Pixel       11905 is wrong!
+#                The output data is cc, but the expected data is 32 
+# WRONG! Result image has error , Pixel       11906 is wrong!
+#                The output data is 33, but the expected data is 32 
+# WRONG! Result image has error , Pixel       12033 is wrong!
+#                The output data is c5, but the expected data is 30 
+# WRONG! Result image has error , Pixel       12161 is wrong!
+#                The output data is 60, but the expected data is 30 
+# WRONG! Result image has error , Pixel       12162 is wrong!
+#                The output data is 32, but the expected data is 30 
+# WRONG! Result image has error , Pixel       12289 is wrong!
+#                The output data is 2d, but the expected data is 30 
+# WRONG! Result image has error , Pixel       12290 is wrong!
+#                The output data is 2d, but the expected data is 2e 
+# WRONG! Result image has error , Pixel       12417 is wrong!
+#                The output data is 2d, but the expected data is 32 
+# WRONG! Result image has error , Pixel       12418 is wrong!
+#                The output data is 2d, but the expected data is 30 
+# WRONG! Result image has error , Pixel       12545 is wrong!
+#                The output data is 32, but the expected data is 3e 
+# WRONG! Result image has error , Pixel       12546 is wrong!
+#                The output data is 32, but the expected data is 34 
+# WRONG! Result image has error , Pixel       12673 is wrong!
+#                The output data is 4e, but the expected data is 58 
+# WRONG! Result image has error , Pixel       12801 is wrong!
+#                The output data is 55, but the expected data is 82 
+# WRONG! Result image has error , Pixel       12802 is wrong!
+#                The output data is 56, but the expected data is 66 
+# WRONG! Result image has error , Pixel       12929 is wrong!
+#                The output data is 56, but the expected data is 85 
+# WRONG! Result image has error , Pixel       12930 is wrong!
+#                The output data is 58, but the expected data is 82 
+# WRONG! Result image has error , Pixel       13057 is wrong!
+#                The output data is 58, but the expected data is 87 
+# WRONG! Result image has error , Pixel       13058 is wrong!
+#                The output data is 72, but the expected data is 8d 
+# WRONG! Result image has error , Pixel       13185 is wrong!
+#                The output data is 5b, but the expected data is 80 
+# WRONG! Result image has error , Pixel       13186 is wrong!
+#                The output data is 8d, but the expected data is 8e 
+# WRONG! Result image has error , Pixel       13313 is wrong!
+#                The output data is 63, but the expected data is 74 
+# WRONG! Result image has error , Pixel       13441 is wrong!
+#                The output data is 69, but the expected data is 52 
+# WRONG! Result image has error , Pixel       13569 is wrong!
+#                The output data is 69, but the expected data is 38 
+# WRONG! Result image has error , Pixel       13697 is wrong!
+#                The output data is 69, but the expected data is 37 
+# WRONG! Result image has error , Pixel       13825 is wrong!
+#                The output data is 67, but the expected data is 29 
+# WRONG! Result image has error , Pixel       13953 is wrong!
+#                The output data is 65, but the expected data is 29 
+# WRONG! Result image has error , Pixel       14081 is wrong!
+#                The output data is 62, but the expected data is 29 
+# WRONG! Result image has error , Pixel       14209 is wrong!
+#                The output data is 58, but the expected data is 27 
+# WRONG! Result image has error , Pixel       14337 is wrong!
+#                The output data is 58, but the expected data is 27 
+# WRONG! Result image has error , Pixel       14338 is wrong!
+#                The output data is 5f, but the expected data is 58 
+# WRONG! Result image has error , Pixel       14465 is wrong!
+#                The output data is 5b, but the expected data is 27 
+# WRONG! Result image has error , Pixel       14466 is wrong!
+#                The output data is 5e, but the expected data is 49 
+# WRONG! Result image has error , Pixel       14593 is wrong!
+#                The output data is 4f, but the expected data is 27 
+# WRONG! Result image has error , Pixel       14594 is wrong!
+#                The output data is 5e, but the expected data is 3f 
+# WRONG! Result image has error , Pixel       14721 is wrong!
+#                The output data is 40, but the expected data is 27 
+# WRONG! Result image has error , Pixel       14722 is wrong!
+#                The output data is 4f, but the expected data is 3e 
+# WRONG! Result image has error , Pixel       14849 is wrong!
+#                The output data is 3f, but the expected data is 26 
+# WRONG! Result image has error , Pixel       14850 is wrong!
+#                The output data is 40, but the expected data is 31 
+# WRONG! Result image has error , Pixel       14977 is wrong!
+#                The output data is 37, but the expected data is 2d 
+# WRONG! Result image has error , Pixel       15105 is wrong!
+#                The output data is 37, but the expected data is 3e 
+# WRONG! Result image has error , Pixel       15106 is wrong!
+#                The output data is 3e, but the expected data is 54 
+# WRONG! Result image has error , Pixel       15233 is wrong!
+#                The output data is 3e, but the expected data is 59 
+# WRONG! Result image has error , Pixel       15234 is wrong!
+#                The output data is 59, but the expected data is 5e 
+# WRONG! Result image has error , Pixel       15361 is wrong!
+#                The output data is 42, but the expected data is 5d 
+# WRONG! Result image has error , Pixel       15362 is wrong!
+#                The output data is 6b, but the expected data is 6c 
+# WRONG! Result image has error , Pixel       15489 is wrong!
+#                The output data is 44, but the expected data is 5f 
+# WRONG! Result image has error , Pixel       15490 is wrong!
+#                The output data is 6b, but the expected data is 6c 
+# WRONG! Result image has error , Pixel       15617 is wrong!
+#                The output data is 44, but the expected data is 59 
+# WRONG! Result image has error , Pixel       15618 is wrong!
+#                The output data is 63, but the expected data is 6c 
+# WRONG! Result image has error , Pixel       15745 is wrong!
+#                The output data is 3f, but the expected data is 46 
+# WRONG! Result image has error , Pixel       15746 is wrong!
+#                The output data is 59, but the expected data is 5f 
+#  Result image be found         201 error !
+#  
+# -----------------------------------------------------
+# 
+# --------------------- S U M M A R Y -----------------
+# 
+# FAIL!!!  There are         201 errors! in result image 
+# 
+# -----------------------------------------------------
+# 
+# ** Note: $finish    : D:/109-2_NCKU/HW4_v3/testfixture.v(123)
+#    Time: 5570660 ns  Iteration: 0  Instance: /testfixture
+# 1
+# Break in Module testfixture at D:/109-2_NCKU/HW4_v3/testfixture.v line 123
+# Compile of MFE.v was successful.
+# Compile of testfixture.v was successful.
+# 2 compiles, 0 failed with no errors. 
+restart
+# Refreshing D:/109-2_NCKU/HW4_v3/work.testfixture
+# Loading work.testfixture
+# Refreshing D:/109-2_NCKU/HW4_v3/work.MFE
+# Loading work.MFE
+run -all
+# -----------------------------------------------------
+# 
+# START!!! Simulation Start .....
+# 
+# -----------------------------------------------------
+# 
+#  Result image is correct !
+#  
+# -----------------------------------------------------
+# 
+# --------------------- S U M M A R Y -----------------
+# 
+# Congratulations! Result image data have been generated successfully! The result is PASS!!
+# 
+# -----------------------------------------------------
+# 
+# ** Note: $finish    : D:/109-2_NCKU/HW4_v3/testfixture.v(123)
+#    Time: 5570660 ns  Iteration: 0  Instance: /testfixture
+# 1
+# Break in Module testfixture at D:/109-2_NCKU/HW4_v3/testfixture.v line 123
+# Compile of MFE.v was successful.
+# Compile of testfixture.v was successful.
+# 2 compiles, 0 failed with no errors. 
+restart
+# Refreshing D:/109-2_NCKU/HW4_v3/work.testfixture
+# Loading work.testfixture
+# Refreshing D:/109-2_NCKU/HW4_v3/work.MFE
+# Loading work.MFE
+run -all
+# -----------------------------------------------------
+# 
+# START!!! Simulation Start .....
+# 
+# -----------------------------------------------------
+# 
+#  Result image is correct !
+#  
+# -----------------------------------------------------
+# 
+# --------------------- S U M M A R Y -----------------
+# 
+# Congratulations! Result image data have been generated successfully! The result is PASS!!
+# 
+# -----------------------------------------------------
+# 
+# ** Note: $finish    : D:/109-2_NCKU/HW4_v3/testfixture.v(123)
+#    Time: 5570660 ns  Iteration: 0  Instance: /testfixture
+# 1
+# Break in Module testfixture at D:/109-2_NCKU/HW4_v3/testfixture.v line 123
+# Compile of MFE.v was successful.
+# Compile of testfixture.v was successful.
+# 2 compiles, 0 failed with no errors. 
+# Error: ¦¨³©¡
+#        Unable to replace existing ini file (D:/109-2_NCKU/HW4_v3/MFE.mpf).  File can not be renamed.
+restart
+# Refreshing D:/109-2_NCKU/HW4_v3/work.testfixture
+# Loading work.testfixture
+# Refreshing D:/109-2_NCKU/HW4_v3/work.MFE
+# Loading work.MFE
+run -all
+# -----------------------------------------------------
+# 
+# START!!! Simulation Start .....
+# 
+# -----------------------------------------------------
+# 
+#  Result image is correct !
+#  
+# -----------------------------------------------------
+# 
+# --------------------- S U M M A R Y -----------------
+# 
+# Congratulations! Result image data have been generated successfully! The result is PASS!!
+# 
+# -----------------------------------------------------
+# 
+# ** Note: $finish    : D:/109-2_NCKU/HW4_v3/testfixture.v(123)
+#    Time: 5570660 ns  Iteration: 0  Instance: /testfixture
+# 1
+# Break in Module testfixture at D:/109-2_NCKU/HW4_v3/testfixture.v line 123
+# Compile of MFE.v failed with 1 errors.
+# Compile of testfixture.v was successful.
+# 2 compiles, 1 failed with 1 error. 
+restart
+# Compile of MFE.v failed with 1 errors.
+# Compile of testfixture.v was successful.
+# 2 compiles, 1 failed with 1 error. 
+# Compile of MFE.v was successful.
+# Compile of testfixture.v was successful.
+# 2 compiles, 0 failed with no errors. 
+restart
+# Refreshing D:/109-2_NCKU/HW4_v3/work.testfixture
+# Loading work.testfixture
+# Refreshing D:/109-2_NCKU/HW4_v3/work.MFE
+# Loading work.MFE
+run -all
+# -----------------------------------------------------
+# 
+# START!!! Simulation Start .....
+# 
+# -----------------------------------------------------
+# 
+#  Result image is correct !
+#  
+# -----------------------------------------------------
+# 
+# --------------------- S U M M A R Y -----------------
+# 
+# Congratulations! Result image data have been generated successfully! The result is PASS!!
+# 
+# -----------------------------------------------------
+# 
+# ** Note: $finish    : D:/109-2_NCKU/HW4_v3/testfixture.v(123)
+#    Time: 5570660 ns  Iteration: 0  Instance: /testfixture
+# 1
+# Break in Module testfixture at D:/109-2_NCKU/HW4_v3/testfixture.v line 123
+run -all
+# -----------------------------------------------------
+# 
+# Error!!! The simulation can't be terminated under normal operation!
+# 
+# -------------------------FAIL------------------------
+# 
+# -----------------------------------------------------
+# 
+# ** Note: $finish    : D:/109-2_NCKU/HW4_v3/testfixture.v(82)
+#    Time: 100 ms  Iteration: 0  Instance: /testfixture
+# 1
+# Break in Module testfixture at D:/109-2_NCKU/HW4_v3/testfixture.v line 82
+# Compile of MFE.v was successful.
+# Compile of testfixture.v was successful.
+# Compile of MFE.vo was successful.
+# Compile of cycloneii_atoms.v was successful.
+# 4 compiles, 0 failed with no errors. 
+# Compile of testfixture.v was successful.
+# Compile of MFE.vo was successful.
+# Compile of cycloneii_atoms.v was successful.
+# 3 compiles, 0 failed with no errors. 
+restart
+# Refreshing D:/109-2_NCKU/HW4_v3/work.testfixture
+# Loading work.testfixture
+# Refreshing D:/109-2_NCKU/HW4_v3/work.MFE
+# Loading work.MFE
+# Refreshing D:/109-2_NCKU/HW4_v3/work.cycloneii_lcell_ff
+# Loading work.cycloneii_lcell_ff
+# Refreshing D:/109-2_NCKU/HW4_v3/work.cycloneii_lcell_comb
+# Loading work.cycloneii_lcell_comb
+# Refreshing D:/109-2_NCKU/HW4_v3/work.cycloneii_io
+# Loading work.cycloneii_io
+# Refreshing D:/109-2_NCKU/HW4_v3/work.cycloneii_mux21
+# Loading work.cycloneii_mux21
+# Refreshing D:/109-2_NCKU/HW4_v3/work.cycloneii_dffe
+# Loading work.cycloneii_dffe
+# Refreshing D:/109-2_NCKU/HW4_v3/work.cycloneii_asynch_io
+# Loading work.cycloneii_asynch_io
+# Refreshing D:/109-2_NCKU/HW4_v3/work.cycloneii_clkctrl
+# Loading work.cycloneii_clkctrl
+# Refreshing D:/109-2_NCKU/HW4_v3/work.cycloneii_mux41
+# Loading work.cycloneii_mux41
+# Refreshing D:/109-2_NCKU/HW4_v3/work.cycloneii_ena_reg
+# Loading work.cycloneii_ena_reg
+# SDF 10.1c Compiler 2012.07 Jul 27 2012
+# 
+# Loading instances from MFE_v.sdo
+# Refreshing D:/109-2_NCKU/HW4_v3/work.CYCLONEII_PRIM_DFFE
+# Loading work.CYCLONEII_PRIM_DFFE
+# Loading timing data from MFE_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /testfixture File: D:/109-2_NCKU/HW4_v3/testfixture.v
+# Warning in wave window restart: (vish-4014) No objects found matching '/testfixture/u_mfe/idata_load'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testfixture/u_mfe/data_rd_load'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testfixture/u_mfe/map_case'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testfixture/u_mfe/mask'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testfixture/u_mfe/mask_temp'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testfixture/u_mfe/curt_state'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testfixture/u_mfe/next_state'. 
+run -all
+# -----------------------------------------------------
+# 
+# START!!! Simulation Start .....
+# 
+# -----------------------------------------------------
+# 
+#  Result image is correct !
+#  
+# -----------------------------------------------------
+# 
+# --------------------- S U M M A R Y -----------------
+# 
+# Congratulations! Result image data have been generated successfully! The result is PASS!!
+# 
+# -----------------------------------------------------
+# 
+# ** Note: $finish    : D:/109-2_NCKU/HW4_v3/testfixture.v(123)
+#    Time: 5570669395 ps  Iteration: 0  Instance: /testfixture
+# 1
+# Break in Module testfixture at D:/109-2_NCKU/HW4_v3/testfixture.v line 123

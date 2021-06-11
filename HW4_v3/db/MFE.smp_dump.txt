@@ -1,0 +1,21 @@
+
+State Machine - |MFE|map_case
+Name map_case.00111 map_case.00110 map_case.00101 map_case.00100 map_case.00011 map_case.00010 map_case.00000 map_case.00001 map_case.01000 
+map_case.00001 0 0 0 0 0 0 0 0 0 
+map_case.00000 0 0 0 0 0 0 1 1 0 
+map_case.00010 0 0 0 0 0 1 0 1 0 
+map_case.00011 0 0 0 0 1 0 0 1 0 
+map_case.00100 0 0 0 1 0 0 0 1 0 
+map_case.00101 0 0 1 0 0 0 0 1 0 
+map_case.00110 0 1 0 0 0 0 0 1 0 
+map_case.00111 1 0 0 0 0 0 0 1 0 
+map_case.01000 0 0 0 0 0 0 0 1 1 
+
+State Machine - |MFE|curt_state
+Name curt_state.0101 curt_state.0100 curt_state.0011 curt_state.0010 curt_state.0001 curt_state.0000 
+curt_state.0000 0 0 0 0 0 0 
+curt_state.0001 0 0 0 0 1 1 
+curt_state.0010 0 0 0 1 0 1 
+curt_state.0011 0 0 1 0 0 1 
+curt_state.0100 0 1 0 0 0 1 
+curt_state.0101 1 0 0 0 0 1 
